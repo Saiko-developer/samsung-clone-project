@@ -10,7 +10,7 @@ import useSWR from "swr";
 
 const LatestOfferCategoriesSection = () => {
   const {
-    data: categories,
+    data: categories=[],
     isLoading,
     error,
   } = useSWR(latestOfferCategoriesApiUrl, fetchCategory);

@@ -42,9 +42,9 @@ const OurServiceSection = () => {
         className="w-full mb-5"
       >
         <CarouselContent className="flex md:flex lg:flex p-6">
-          {services?.map((service) => (
+          {services?.map((service,index) => (
             <CarouselItem
-              key={service.id}
+              key={service.id || index}
               className="basis-1/2 pl-1 md:basis-1/3 lg:basis-1/4 p-2"
             >
               <Card className=" w-full">

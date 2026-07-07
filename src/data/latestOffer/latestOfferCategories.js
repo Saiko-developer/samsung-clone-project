@@ -2,3 +2,6 @@ export const latestOfferCategoriesApiUrl = `${process.env.NEXT_PUBLIC_API_URL}/l
 
 export const fetchCategory = (...args) =>
   fetch(...args).then((res) => res.json());
+
+
+
