@@ -1,0 +1,1836 @@
+{
+  "services": [
+    {
+      "title": "Samsung Rewards",
+      "description": "Shop and get rewarded with Samsung Reward points.",
+      "icon": "Sparkles",
+      "link": "./services/Rewards"
+    },
+    {
+      "title": "Samsung Care+",
+      "description": "Keep your Samsung Galaxy device protected.",
+      "icon": "HeartHandshake",
+      "link": "./services/Care"
+    },
+    {
+      "title": "Free Delivery",
+      "description": "Enjoy free doorstep delivery when you purchase on the Online Store.",
+      "icon": "Truck",
+      "link": "./services/Delivery"
+    },
+    {
+      "title": "0% Instalment Plans",
+      "description": "Enjoy interest-free monthly instalments for purchases above $500.",
+      "icon": "CreditCard",
+      "link": "./services/Plan"
+    }
+  ],
+  "newAndFeatures": [
+    {
+      "id": 201,
+      "title": "Galaxy S26+ (Samsung.com only)",
+      "price": "$1,928.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-ultra-s948-sm-s948bzvcxsp-thumb-550765594?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.7 inch" },
+          { "label": "Resolution", "value": "3088 x 1440" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "12MP" }
+        ]
+      }
+    },
+    {
+      "id": 202,
+      "title": "Galaxy Buds4 Pro",
+      "price": "$349.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-buds4-r640-sm-r640nzwaasa-thumb-550954951?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "2-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "High SNR Mic x3" },
+          { "label": "Active Noise Cancel", "value": "Intelligent ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 8 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "520mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC, Samsung Seamless" }
+        ]
+      }
+    },
+    {
+      "id": 203,
+      "title": "77\" OLED S95F 4K Samsung Vision AI Sm...",
+      "price": "$7,799.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/qa77s95fakxxs/gallery/sg-oled-tv-qa77s95fakxxs-front-black-thumb-546056173?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Display": [
+          { "label": "Screen Size", "value": "77 inch" },
+          { "label": "Resolution", "value": "4K (3840 x 2160)" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Smart TV": [
+          { "label": "Operating System", "value": "Tizen Smart TV" },
+          { "label": "AI Processor", "value": "Neo Quantum 4K AI" },
+          { "label": "HDR", "value": "Neo HDR+" }
+        ],
+        "Audio": [
+          { "label": "Speaker Type", "value": "2.2.2ch" },
+          { "label": "Total Power", "value": "60W" },
+          { "label": "Dolby Atmos", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "title": "Bespoke AI Front-load Washer 9kg",
+      "price": "$1,138.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/ww90dg6u34lesp/gallery/sg-ww6000d-ww90dg6u34lesp-thumb-550422830?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Capacity": [
+          { "label": "Wash Capacity", "value": "9kg" },
+          { "label": "Spin Speed", "value": "1400 RPM" },
+          { "label": "Energy Rating", "value": "4 Ticks" }
+        ],
+        "Features": [
+          { "label": "AI Wash", "value": "Yes" },
+          { "label": "Quick Wash", "value": "15 min" },
+          { "label": "Eco Bubble", "value": "Yes" }
+        ],
+        "Dimensions": [
+          { "label": "Height", "value": "850mm" },
+          { "label": "Width", "value": "600mm" },
+          { "label": "Depth", "value": "550mm" }
+        ]
+      }
+    },
+    {
+      "id": 205,
+      "title": "Galaxy Watch8 (Bluetooth, 44 mm)",
+      "price": "$548.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/f2507/gallery/sg-galaxy-watch8-l330-sm-l330nzsaasa-thumb-547652739?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "Sapphire Crystal", "value": "Yes" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 206,
+      "title": "65\" OLED S90H 4K Samsung Vision AI Sm...",
+      "price": "$4,499.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/qa65s90hakxxs/gallery/sg-oled-s90h-qa65s90hakxxs-thumb-551734139?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Display": [
+          { "label": "Screen Size", "value": "65 inch" },
+          { "label": "Resolution", "value": "4K (3840 x 2160)" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Smart TV": [
+          { "label": "Operating System", "value": "Tizen Smart TV" },
+          { "label": "AI Processor", "value": "Neo Quantum 4K AI" },
+          { "label": "HDR", "value": "Neo HDR+" }
+        ],
+        "Audio": [
+          { "label": "Speaker Type", "value": "2.2ch" },
+          { "label": "Total Power", "value": "40W" },
+          { "label": "Dolby Atmos", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 207,
+      "title": "75\" The Frame LS03HE 4K Samsung Visio...",
+      "price": "$4,599.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/qa75ls03hekxxs/gallery/sg-the-frame-ls03he-qa75ls03hekxxs-thumb-552317117?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Display": [
+          { "label": "Screen Size", "value": "75 inch" },
+          { "label": "Resolution", "value": "4K (3840 x 2160)" },
+          { "label": "Refresh Rate", "value": "60Hz" }
+        ],
+        "Smart TV": [
+          { "label": "Operating System", "value": "Tizen Smart TV" },
+          { "label": "AI Processor", "value": "Quantum 4K AI" },
+          { "label": "HDR", "value": "HDR10+" }
+        ],
+        "Design": [
+          { "label": "Frame Style", "value": "Art Mode" },
+          { "label": "Bezel", "value": "Slim" },
+          { "label": "Mount", "value": "Wall Mount Included" }
+        ]
+      }
+    },
+    {
+      "id": 208,
+      "title": "Music Studio 5 LS51H Wi-Fi-Bluetooth ...",
+      "price": "$329.00",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/hw-ls51h-xs/gallery/sg-music-studio5-ls51h-hw-ls51h-xs-thumb-551439994?$200_200_PNG$",
+      "subname": "New&Features",
+      "category": "New&Features",
+      "specs": {
+        "Audio": [
+          { "label": "Channels", "value": "5.1.2ch" },
+          { "label": "Total Power", "value": "360W" },
+          { "label": "Subwoofer", "value": "Wireless 6.5 inch" }
+        ],
+        "Connectivity": [
+          { "label": "Wi-Fi", "value": "Wi-Fi 6" },
+          { "label": "Bluetooth", "value": "5.2" },
+          { "label": "HDMI", "value": "HDMI eARC / 2 inputs" }
+        ],
+        "Features": [
+          { "label": "Q-Symphony", "value": "Supported" },
+          { "label": "Dolby Atmos", "value": "Yes" },
+          { "label": "SpaceFit Sound", "value": "Pro" }
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
+      "icon": "Smartphone"
+    },
+    {
+      "id": 2,
+      "name": "Tablets",
+      "slug": "tablets",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800",
+      "icon": "Tablet"
+    },
+    {
+      "id": 3,
+      "name": "Wearables",
+      "slug": "wearables",
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800",
+      "icon": "Watch"
+    },
+    {
+      "id": 4,
+      "name": "Audio",
+      "slug": "audio",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+      "icon": "Headphones"
+    },
+    {
+      "id": 5,
+      "name": "Accessories",
+      "slug": "accessories",
+      "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800",
+      "icon": "Backpack"
+    },
+    {
+      "id": 6,
+      "name": "TV & Home",
+      "slug": "tv-home",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800",
+      "icon": "Tv"
+    }
+  ],
+
+  "latestOfferCategories": [
+    {
+      "id": 1,
+      "name": "New in",
+      "slug": "new-in"
+    },
+    {
+      "id": 2,
+      "name": "Mobile",
+      "slug": "mobile"
+    },
+    {
+      "id": 3,
+      "name": "TVs & Soundbars",
+      "slug": "tvs-soundbars"
+    },
+    {
+      "id": 4,
+      "name": "Appliances",
+      "slug": "appliances"
+    },
+    {
+      "id": 5,
+      "name": "Computing & Monitors",
+      "slug": "computing-monitors"
+    }
+  ],
+
+  "latestOfferProducts": [
+    {
+      "id": 101,
+      "title": "Galaxy S26 Ultra",
+      "category": "Mobile",
+      "description": "Snag $200 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-ultra-s948-sm-s948bzvcxsp-thumb-550765594?$216_216_PNG$",
+
+      "specs": {
+        "Processor": [
+          {
+            "label": "CPU Speed",
+            "value": "4.47GHz, 3.6GHz"
+          },
+          {
+            "label": "CPU Type",
+            "value": "Octa Core"
+          }
+        ],
+
+        "Display": [
+          {
+            "label": "Size",
+            "value": "6.9 inch"
+          },
+          {
+            "label": "Resolution",
+            "value": "3120 x 1440"
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "title": "Galaxy Buds4 Pro",
+      "category": "Mobile",
+      "description": "Enjoy 10% off with purchase of any Galaxy Smartphone or Tab",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/offer/20260226/buds4pro-216x216.png?$216_216_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "2-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "High SNR Mic x3" },
+          { "label": "Active Noise Cancel", "value": "Intelligent ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 8 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "520mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC, Samsung Seamless" }
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "title": "Galaxy Z Fold7",
+      "category": "Mobile",
+      "description": "Snag $450 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/offer/20250709/fold7-216x216.png?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Main Screen", "value": "7.6 inch Dynamic AMOLED 2X" },
+          { "label": "Cover Screen", "value": "6.3 inch Dynamic AMOLED 2X" },
+          { "label": "Resolution", "value": "2160 x 1856" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "10MP + 4MP (Under Display)" }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "title": "Galaxy Z Flip7",
+      "category": "Mobile",
+      "description": "Snag $400 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/offer/20250709/flip7-216x216.png?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Main Screen", "value": "6.7 inch Dynamic AMOLED 2X" },
+          { "label": "Cover Screen", "value": "3.4 inch Super AMOLED" },
+          { "label": "Resolution", "value": "2640 x 1080" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP" },
+          { "label": "Front", "value": "10MP" }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "title": "Music Studio 5 LS51H Wi-Fi-Bluetooth ...",
+      "category": "TVs & Soundbars",
+      "description": "Snag $300 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/hw-ls51h-xs/gallery/sg-music-studio5-ls51h-hw-ls51h-xs-thumb-551439994?$200_200_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Channels", "value": "5.1.2ch" },
+          { "label": "Total Power", "value": "360W" },
+          { "label": "Subwoofer", "value": "Wireless 6.5 inch" }
+        ],
+        "Connectivity": [
+          { "label": "Wi-Fi", "value": "Wi-Fi 6" },
+          { "label": "Bluetooth", "value": "5.2" },
+          { "label": "HDMI", "value": "HDMI eARC / 2 inputs" }
+        ],
+        "Features": [
+          { "label": "Q-Symphony", "value": "Supported" },
+          { "label": "Dolby Atmos", "value": "Yes" },
+          { "label": "SpaceFit Sound", "value": "Pro" }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "title": "Galaxy TV Neo QLED",
+      "category": "TVs & Soundbars",
+      "description": "Save up to $500",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/qa77s95fakxxs/gallery/sg-oled-tv-qa77s95fakxxs-front-black-thumb-546056173?$200_200_PNG$",
+      "specs": {
+        "Display": [
+          { "label": "Screen Size", "value": "77 inch" },
+          { "label": "Resolution", "value": "4K (3840 x 2160)" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Smart TV": [
+          { "label": "Operating System", "value": "Tizen Smart TV" },
+          { "label": "AI Processor", "value": "Neo Quantum 4K AI" },
+          { "label": "HDR", "value": "Neo HDR+" }
+        ],
+        "Audio": [
+          { "label": "Speaker Type", "value": "2.2.2ch" },
+          { "label": "Total Power", "value": "60W" },
+          { "label": "Dolby Atmos", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "title": "Galaxy Refrigerator",
+      "category": "Appliances",
+      "description": "Snag $400 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/rf59c7004b1-ss/gallery/sg-french-door-bespoke-design-and-non-plumbing-rf59c7004b1-ss-thumb-550422297?$216_216_PNG$",
+      "specs": {
+        "Capacity": [
+          { "label": "Total Volume", "value": "820L" },
+          { "label": "Fridge", "value": "540L" },
+          { "label": "Freezer", "value": "280L" }
+        ],
+        "Features": [
+          { "label": "AI Energy Mode", "value": "Yes" },
+          { "label": "Auto Open Door", "value": "Yes" },
+          { "label": "Ice Maker", "value": "Twin Auto Ice Maker" }
+        ],
+        "Dimensions": [
+          { "label": "Height", "value": "1820mm" },
+          { "label": "Width", "value": "912mm" },
+          { "label": "Depth", "value": "735mm" }
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "title": "Bespoke AI Front-load Washer 9kg",
+      "category": "Appliances",
+      "description": "Save $350 on bundles",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/ww90dg6u34lesp/gallery/sg-ww6000d-ww90dg6u34lesp-thumb-550422830?$200_200_PNG$",
+      "specs": {
+        "Capacity": [
+          { "label": "Wash Capacity", "value": "9kg" },
+          { "label": "Spin Speed", "value": "1400 RPM" },
+          { "label": "Energy Rating", "value": "4 Ticks" }
+        ],
+        "Features": [
+          { "label": "AI Wash", "value": "Yes" },
+          { "label": "Quick Wash", "value": "15 min" },
+          { "label": "Eco Bubble", "value": "Yes" }
+        ],
+        "Dimensions": [
+          { "label": "Height", "value": "850mm" },
+          { "label": "Width", "value": "600mm" },
+          { "label": "Depth", "value": "550mm" }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "title": "Galaxy Dishwasher",
+      "category": "Appliances",
+      "description": "Snag $250 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600",
+      "specs": {
+        "Capacity": [
+          { "label": "Place Settings", "value": "14" },
+          { "label": "Noise Level", "value": "42 dB" },
+          { "label": "Energy Rating", "value": "5 Ticks" }
+        ],
+        "Features": [
+          { "label": "Auto Wash", "value": "Yes" },
+          { "label": "Smart Dry", "value": "Auto Open Dry" },
+          { "label": "Delay Start", "value": "Yes" }
+        ],
+        "Dimensions": [
+          { "label": "Height", "value": "845mm" },
+          { "label": "Width", "value": "598mm" },
+          { "label": "Depth", "value": "600mm" }
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "title": "Galaxy Monitor M8",
+      "category": "Computing & Monitors",
+      "description": "Snag $200 off",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux3/offer/latest-offer/new-in/216x126_PC_DA.png?$216_216_PNG$",
+      "specs": {
+        "Display": [
+          { "label": "Screen Size", "value": "32 inch" },
+          { "label": "Resolution", "value": "4K UHD (3840 x 2160)" },
+          { "label": "Panel Type", "value": "VA" },
+          { "label": "Refresh Rate", "value": "60Hz" }
+        ],
+        "Features": [
+          { "label": "Smart TV", "value": "Built-in Streaming Apps" },
+          { "label": "Built-in Speaker", "value": "Stereo 5W x 2" },
+          { "label": "USB-C", "value": "65W Charging" }
+        ],
+        "Dimensions": [
+          { "label": "Weight", "value": "6.2 kg" },
+          { "label": "VESA Mount", "value": "100 x 100mm" }
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "title": "Samsung AI Week",
+      "category": "New in",
+      "description": "Discover your companion to AI Living",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/offer/26_sw_1h_signposting_shop_560x560_SESP.jpg?$342_342_JPG$",
+      "specs": {
+        "Promotion": [
+          { "label": "Offer Period", "value": "Jun 01 - Jun 30, 2026" },
+          { "label": "Discount", "value": "Up to 30% off" },
+          { "label": "Free Gift", "value": "Exclusive AI Week Bundle" }
+        ],
+        "Eligibility": [
+          { "label": "Min Spend", "value": "$500" },
+          { "label": "Trade In", "value": "Additional $200 off" },
+          { "label": "Installment", "value": "0% for 12 months" }
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "title": "Samsung Live Shop",
+      "category": "New in",
+      "description": "Stream in and unlock the best deals live!",
+      "validUntil": "Jun 06, 2026",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/offer/samsunglive/Shop_Offer_Card_360px.png?$216_216_PNG$",
+      "specs": {
+        "Promotion": [
+          { "label": "Offer Period", "value": "Weekly Live Streams" },
+          { "label": "Live Discount", "value": "Exclusive Live Show Prices" },
+          { "label": "Flash Deals", "value": "Limited Stock Offers" }
+        ],
+        "Rewards": [
+          { "label": "Live Coins", "value": "Earn Coins During Stream" },
+          { "label": "Free Delivery", "value": "On All Live Orders" },
+          { "label": "Bundle Deals", "value": "Up to 40% Off Bundles" }
+        ]
+      }
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "category": "Smartphones",
+      "title": "Samsung Galaxy S25 Ultra",
+      "subname": "Galaxy S",
+      "price": 1299.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-ultra-s948-sm-s948blbcxsp-thumb-550765260?$200_200_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.9 inch" },
+          { "label": "Resolution", "value": "3120 x 1440" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "200MP + 50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "12MP" },
+          { "label": "Zoom", "value": "100x Space Zoom" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "category": "Smartphones",
+      "title": "Samsung Galaxy S25 Plus",
+      "subname": "Galaxy S",
+      "price": 999.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-s947-578583-sm-s947bzdcxsp-thumb-550882061?$200_200_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.7 inch" },
+          { "label": "Resolution", "value": "3088 x 1440" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "12MP" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "category": "Smartphones",
+      "title": "Samsung Galaxy S25",
+      "subname": "Galaxy S",
+      "price": 799.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2501/gallery/sg-galaxy-s25-s931-sm-s931bdbcxsp-thumb-544598896?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.2 inch" },
+          { "label": "Resolution", "value": "2340 x 1080" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP" },
+          { "label": "Front", "value": "12MP" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "category": "Smartphones",
+      "title": "Samsung Galaxy Z Fold 7",
+      "subname": "Galaxy Z",
+      "price": 1899.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/f2507/gallery/sg-galaxy-z-fold7-f966-554704-sm-f966bdbgxsp-thumb-547581997?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Main Screen", "value": "7.6 inch Dynamic AMOLED 2X" },
+          { "label": "Cover Screen", "value": "6.3 inch" },
+          { "label": "Resolution", "value": "2160 x 1856" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "10MP + 4MP (Under Display)" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "category": "Smartphones",
+      "title": "Samsung Galaxy Z Flip 7",
+      "subname": "Galaxy Z",
+      "price": 1099.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/f2507/gallery/sg-galaxy-z-flip7-fe-f761-sm-f761bzkexsp-thumb-547564151?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Main Screen", "value": "6.7 inch Dynamic AMOLED 2X" },
+          { "label": "Cover Screen", "value": "3.4 inch Super AMOLED" },
+          { "label": "Resolution", "value": "2640 x 1080" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP" },
+          { "label": "Front", "value": "10MP" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "category": "Tablets",
+      "title": "Samsung Galaxy Tab S10 Ultra",
+      "subname": "Galaxy Tab",
+      "price": 1199.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x926bzaaxsp/gallery/sg-galaxy-tab-s10-ultra-sm-x920-sm-x926bzaaxsp-thumb-543827371?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "3.36GHz, 2.8GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "14.6 inch" },
+          { "label": "Resolution", "value": "2960 x 1848" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "13MP + 8MP" },
+          { "label": "Front", "value": "12MP Ultra Wide" }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "category": "Tablets",
+      "title": "Samsung Galaxy Tab S10 Plus",
+      "subname": "Galaxy Tab",
+      "price": 999.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x826bzaaxsp/gallery/sg-galaxy-tab-s10-plus-sm-x820-sm-x826bzaaxsp-thumb-543827645?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "3.36GHz, 2.8GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "12.4 inch" },
+          { "label": "Resolution", "value": "2800 x 1752" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "13MP + 8MP" },
+          { "label": "Front", "value": "12MP" }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "category": "Tablets",
+      "title": "Samsung Galaxy Tab A10",
+      "subname": "Galaxy Tab",
+      "price": 349.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x230nzaaxsp/gallery/sg-galaxy-tab-a11-plus-sm-x230-sm-x230nzaaxsp-thumb-550160533?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "2.3GHz, 1.8GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "10.1 inch" },
+          { "label": "Resolution", "value": "1920 x 1200" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "7040mAh" },
+          { "label": "Charging", "value": "15W Fast Charging" }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "category": "Tablets",
+      "title": "Samsung Galaxy Tab Active 6",
+      "subname": "Galaxy Tab",
+      "price": 699.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x736bzaexsp/gallery/sg-galaxy-tab-s11-sm-x730-sm-x736bzaexsp-thumb-548810811?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "2.4GHz, 2.0GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "10.1 inch" },
+          { "label": "Resolution", "value": "1920 x 1200" }
+        ],
+        "Features": [
+          { "label": "Rugged", "value": "IP68, MIL-STD-810H" },
+          { "label": "S Pen", "value": "Included" }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "category": "Tablets",
+      "title": "Samsung Galaxy Tab S9 FE",
+      "subname": "Galaxy Tab",
+      "price": 549.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x616bzsaxsp/gallery/sg-galaxy-tab-s9-fe--5g-sm-x616bzsaxsp-thumb-538369931?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "2.4GHz, 2.0GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "10.9 inch" },
+          { "label": "Resolution", "value": "2304 x 1440" },
+          { "label": "Refresh Rate", "value": "90Hz" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "8000mAh" },
+          { "label": "Charging", "value": "45W Fast Charging" }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "category": "Accessories",
+      "title": "Galaxy Watch7 Sport Band",
+      "subname": "Galaxy Watch7 Sport Band",
+      "price": 58.0,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2407/gallery/sg-galaxy-watch7-sport-band-medium-and-large-et-snl31lwegww-thumb-542035879?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "category": "Audio",
+      "title": "Galaxy Buds3 Pro",
+      "subname": "Galaxy Buds",
+      "price": 219.99,
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/s2602/pcd/smartphones/PF_NAV_Buds4-Pro_144x144.png?$ORIGIN_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "2-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "High SNR Mic x3" },
+          { "label": "Active Noise Cancel", "value": "Intelligent ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 8 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "520mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC, Samsung Seamless" }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "category": "Audio",
+      "title": "Galaxy Buds3",
+      "subname": "Galaxy Buds",
+      "price": 258.0,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2407/gallery/sg-galaxy-buds3-r530-sm-r530nzaaasa-thumb-542191656?$216_216_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "1-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "Dual Mic" },
+          { "label": "Active Noise Cancel", "value": "ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 6 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "440mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC" }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "category": "Accessories",
+      "title": "Galaxy Ring Silver",
+      "subname": "Galaxy Ring",
+      "price": 399.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-q500nzsaasa/gallery/sg-galaxy-ring-q500-sm-q500nzsaasa-thumb-544169369?$216_216_PNG$",
+      "specs": {
+        "Sensors": [
+          { "label": "Heart Rate", "value": "Yes" },
+          { "label": "Sleep Tracking", "value": "Yes" },
+          { "label": "Temperature", "value": "Yes" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "20mAh" },
+          { "label": "Charging", "value": "Wireless Charging" },
+          { "label": "Battery Life", "value": "Up to 7 days" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Material", "value": "Titanium Silver" },
+          { "label": "Sizes", "value": "Sizes 5-13" }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "category": "Wearables",
+      "title": "Galaxy Watch Ultra",
+      "subname": "Galaxy Watch",
+      "rate": 4.7,
+      "price": 599.99,
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/Mobile_MainCategory_1-4.png?$ORIGIN_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "590mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Titanium Bezel", "value": "Yes" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "category": "Wearables",
+      "title": "Galaxy Watch7",
+      "subname": "Galaxy Watch",
+      "rate": 4.4,
+      "price": 329.99,
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/za/2407/gallery/za-galaxy-watch7-l310-sm-l310nzgaxfa-thumb-542376550",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    }
+  ],
+  "guide": [
+    {
+      "id": 1,
+      "title": "Find your smartphone",
+      "buttonText": "Learn more",
+      "buttonUrl": "/Guide/SmartPhone",
+      "image": {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1MDUzYjQiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRhYmxldC1zbWFydHBob25lLWljb24gbHVjaWRlLXRhYmxldC1zbWFydHBob25lIj48cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTQiIHg9IjMiIHk9IjgiIHJ4PSIyIi8+PHBhdGggZD0iTTUgNGEyIDIgMCAwIDEgMi0yaDEyYTIgMiAwIDAgMSAyIDJ2MTZhMiAyIDAgMCAxLTIgMmgtMi40Ii8+PHBhdGggZD0iTTggMThoLjAxIi8+PC9zdmc+",
+        "alt": "Person holding a modern smartphone"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Find your TV",
+      "buttonText": "Learn more",
+      "buttonUrl": "/Guide/Tv",
+      "image": {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1MDUzYjQiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXR2LWljb24gbHVjaWRlLXR2Ij48cGF0aCBkPSJtMTcgMi01IDUtNS01Ii8+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE1IiB4PSIyIiB5PSI3IiByeD0iMiIvPjwvc3ZnPg==",
+        "alt": "Modern flat screen television on a stand"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Find your appliance",
+      "buttonText": "Learn more",
+      "buttonUrl": "/Guide/Appliance",
+      "image": {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1MDUzYjQiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNvYXAtZGlzcGVuc2VyLWRyb3BsZXQtaWNvbiBsdWNpZGUtc29hcC1kaXNwZW5zZXItZHJvcGxldCI+PHBhdGggZD0iTTEwLjUgMnY0Ii8+PHBhdGggZD0iTTE0IDJIN2EyIDIgMCAwIDAtMiAyIi8+PHBhdGggZD0iTTE5LjI5IDE0Ljc2QTYuNjcgNi42NyAwIDAgMSAxNyAxMWE2LjYgNi42IDAgMCAxLTIuMjkgMy43NmMtMS4xNS45Mi0xLjcxIDIuMDQtMS43MSAzLjE5IDAgMi4yMiAxLjggNC4wNSA0IDQuMDVzNC0xLjgzIDQtNC4wNWMwLTEuMTYtLjU3LTIuMjYtMS43MS0zLjE5Ii8+PHBhdGggZD0iTTkuNjA3IDIxSDZhMiAyIDAgMCAxLTItMnYtN2EyIDIgMCAwIDEgMi0yaDdWN2ExIDEgMCAwIDAtMS0xSDlhMSAxIDAgMCAwLTEgMXYzIi8+PC9zdmc+",
+        "alt": "Modern kitchen refrigerator"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Find your monitor",
+      "buttonText": "Learn more",
+      "buttonUrl": "/Guide/Monitor",
+      "image": {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1MDUzYjQiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1vbml0b3ItaWNvbiBsdWNpZGUtbW9uaXRvciI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIvPjxsaW5lIHgxPSI4IiB4Mj0iMTYiIHkxPSIyMSIgeTI9IjIxIi8+PGxpbmUgeDE9IjEyIiB4Mj0iMTIiIHkxPSIxNyIgeTI9IjIxIi8+PC9zdmc+",
+        "alt": "Computer monitor on a desk"
+      }
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "title": "For students",
+      "buttonText": "Learn more",
+      "buttonUrl": "/store/student/",
+      "image": {
+        "src": "https://images.samsung.com/is/image/samsung/assets/sg/offer/update_guideline_v1-2/special-stores-student.png?$448_N_PNG$",
+        "alt": "Smiling student on campus holding notebooks"
+      }
+    },
+    {
+      "id": 2,
+      "title": "For partner employees",
+      "buttonText": "Learn more",
+      "buttonUrl": "/store/employee/",
+      "image": {
+        "src": "https://images.samsung.com/is/image/samsung/assets/sg/offer/update_guideline_v1-2/special-stores-partner-employees.png?$448_N_PNG$",
+        "alt": "Two professional colleagues analyzing documents in an office space"
+      }
+    },
+    {
+      "id": 3,
+      "title": "For business",
+      "buttonText": "Learn more",
+      "buttonUrl": "/store/business",
+      "image": {
+        "src": "https://images.samsung.com/is/image/samsung/assets/sg/offer/update_guideline_v1-2/special-stores-business.png?$448_N_PNG$",
+        "alt": "Business owner packaging an order inside a logistics warehouse"
+      }
+    },
+    {
+      "id": 4,
+      "title": "For government",
+      "buttonText": "Learn more",
+      "buttonUrl": "/store/government",
+      "image": {
+        "src": "https://images.samsung.com/is/image/samsung/assets/sg/offer/update_guideline_v1-2/special-offers-government-v2.png?$448_N_PNG$",
+        "alt": "Government employee in an office setting reviewing documents"
+      }
+    }
+  ],
+  "all-products-categories": [
+    {
+      "id": 1,
+      "category": "Smartphones",
+      "subcategory": "Galaxy S",
+      "name": "Galaxy S26 Ultra",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/s2602/pcd/smartphones/PF_Main-Category_Galaxy-Smartphone_176x176.png?$ORIGIN_PNG$"
+    },
+    {
+      "id": 2,
+      "category": "Tablets",
+      "subcategory": "Tab S",
+      "name": "Galaxy Tab S10 Ultra",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/LNB-Revamp_TS11_Galaxy-TabS_144x144.png?$ORIGIN_PNG$"
+    },
+    {
+      "id": 3,
+      "category": "Wearables",
+      "subcategory": "Watch Ultra",
+      "name": "Galaxy Watch Ultra",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/Mobile_MainCategory_1-4.png?$ORIGIN_PNG$"
+    },
+    {
+      "id": 4,
+      "category": "Audio",
+      "subcategory": "Buds Pro",
+      "name": "Galaxy Buds3 Pro",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/s2602/pcd/smartphones/PF_NAV_Buds4-Pro_144x144.png?$ORIGIN_PNG$"
+    },
+    {
+      "id": 5,
+      "category": "Accessories",
+      "subcategory": "Smart Ring",
+      "name": "Galaxy Ring",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/Mobile_MainCategory_1-6.png?$ORIGIN_PNG$"
+    }
+  ],
+  "all-products": [
+    {
+      "id": 301,
+      "category": "Smartphones",
+      "title": "Galaxy S25 Ultra",
+      "subname": "Galaxy S",
+      "rate": 4.8,
+      "price": [1299.99, 1499.99],
+      "storage": ["256GB", "512GB", "1TB"],
+      "colors": ["#808080", "#1a1a1a", "#f5f5f5", "#8b5cf6"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-ultra-s948-sm-s948bzvcxsp-thumb-550765575?$Q90_330_330_F_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.9 inch" },
+          { "label": "Resolution", "value": "3120 x 1440" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "200MP + 50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "12MP" },
+          { "label": "Zoom", "value": "100x Space Zoom" }
+        ]
+      }
+    },
+    {
+      "id": 302,
+      "category": "Smartphones",
+      "title": "Galaxy S26",
+      "subname": "Galaxy S",
+      "rate": 4.6,
+      "price": [799.99, 999.99],
+      "storage": ["256GB", "512GB"],
+      "colors": ["#808080", "#1a1a1a", "#f5f5f5"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/s2602/gallery/sg-galaxy-s26-s947-sm-s947bzvcxsp-thumb-550879199?$Q90_330_330_F_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "6.2 inch" },
+          { "label": "Resolution", "value": "2340 x 1080" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP" },
+          { "label": "Front", "value": "12MP" }
+        ]
+      }
+    },
+    {
+      "id": 303,
+      "category": "Smartphones",
+      "title": "Galaxy Z Fold 7",
+      "subname": "Galaxy Z",
+      "rate": 4.7,
+      "price": [1899.99, 2199.99],
+      "storage": ["512GB", "1TB"],
+      "colors": ["#1a1a1a", "#c0c0c0", "#8b4513"],
+      "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?w=600",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "4.47GHz, 3.6GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Main Screen", "value": "7.6 inch Dynamic AMOLED 2X" },
+          { "label": "Cover Screen", "value": "6.3 inch" },
+          { "label": "Resolution", "value": "2160 x 1856" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "50MP + 12MP + 10MP" },
+          { "label": "Front", "value": "10MP + 4MP (Under Display)" }
+        ]
+      }
+    },
+    {
+      "id": 304,
+      "category": "Tablets",
+      "title": "Galaxy Tab S10 Ultra",
+      "subname": "Galaxy Tab",
+      "rate": 4.8,
+      "price": [1199.99, 1399.99],
+      "storage": ["256GB", "512GB", "1TB"],
+      "colors": ["#2d2d2d", "#c0c0c0", "#f5e6d3"],
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/LNB-Revamp_TS11_Galaxy-TabS_144x144.png?$ORIGIN_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "3.36GHz, 2.8GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "14.6 inch" },
+          { "label": "Resolution", "value": "2960 x 1848" },
+          { "label": "Refresh Rate", "value": "120Hz" }
+        ],
+        "Camera": [
+          { "label": "Rear", "value": "13MP + 8MP" },
+          { "label": "Front", "value": "12MP Ultra Wide" }
+        ]
+      }
+    },
+    {
+      "id": 305,
+      "category": "Tablets",
+      "title": "Galaxy Tab A9+",
+      "subname": "Galaxy Tab",
+      "rate": 4.3,
+      "price": [269.99, 349.99],
+      "storage": ["64GB", "128GB"],
+      "colors": ["#2d2d2d", "#c0c0c0"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x216bdbaxsp/gallery/sg-galaxy-tab-a9-plus-sm-x216-sm-x216bdbaxsp-thumb-538737867?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "2.3GHz, 1.8GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "11 inch" },
+          { "label": "Resolution", "value": "1920 x 1200" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "7040mAh" },
+          { "label": "Charging", "value": "15W Fast Charging" }
+        ]
+      }
+    },
+    {
+      "id": 306,
+      "category": "Tablets",
+      "title": "Galaxy Tab S9 FE",
+      "subname": "Galaxy Tab",
+      "rate": 4.4,
+      "price": [449.99, 549.99],
+      "storage": ["64GB", "128GB"],
+      "colors": ["#2d2d2d", "#c0c0c0", "#87ceeb"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-x510nlgaxsp/gallery/sg-galaxy-tab-s9-fe-sm-x510-sm-x510nlgaxsp-thumb-538566355?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "2.4GHz, 2.0GHz" },
+          { "label": "CPU Type", "value": "Octa Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "10.9 inch" },
+          { "label": "Resolution", "value": "2304 x 1440" },
+          { "label": "Refresh Rate", "value": "90Hz" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "8000mAh" },
+          { "label": "Charging", "value": "45W Fast Charging" }
+        ]
+      }
+    },
+    {
+      "id": 307,
+      "category": "Wearables",
+      "title": "Galaxy Watch Ultra",
+      "subname": "Galaxy Watch",
+      "rate": 4.7,
+      "price": [599.99, 649.99],
+      "storage": ["32GB"],
+      "colors": ["#808080", "#1a1a1a"],
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/Mobile_MainCategory_1-4.png?$ORIGIN_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "590mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Titanium Bezel", "value": "Yes" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 308,
+      "category": "Wearables",
+      "title": "Galaxy Watch7",
+      "subname": "Galaxy Watch",
+      "rate": 4.4,
+      "price": [329.99, 399.99],
+      "storage": ["16GB", "32GB"],
+      "colors": ["#c0c0c0", "#1a1a1a", "#2e7d32"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/za/2407/gallery/za-galaxy-watch7-l310-sm-l310nzgaxfa-thumb-542376550",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 309,
+      "category": "Wearables",
+      "title": "Galaxy Watch FE",
+      "subname": "Galaxy Watch",
+      "rate": 4.2,
+      "price": [249.99, 299.99],
+      "storage": ["16GB"],
+      "colors": ["#c0c0c0", "#1a1a1a", "#ff69b4"],
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/smartwatch/o/w/1/-enriched-transparent-original-imah5asakrf95vjr.png?q=20",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    },
+    {
+      "id": 310,
+      "category": "Audio",
+      "title": "Galaxy Buds3 Pro",
+      "subname": "Galaxy Buds",
+      "rate": 4.6,
+      "price": [219.99, 249.99],
+      "storage": [],
+      "colors": ["#c0c0c0", "#ffffff"],
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/s2602/pcd/smartphones/PF_NAV_Buds4-Pro_144x144.png?$ORIGIN_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "2-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "High SNR Mic x3" },
+          { "label": "Active Noise Cancel", "value": "Intelligent ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 8 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "520mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC, Samsung Seamless" }
+        ]
+      }
+    },
+    {
+      "id": 311,
+      "category": "Audio",
+      "title": "Galaxy Buds3",
+      "subname": "Galaxy Buds",
+      "rate": 4.3,
+      "price": [149.99, 179.99],
+      "storage": [],
+      "colors": ["#c0c0c0", "#ffffff"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2407/gallery/sg-galaxy-buds3-r530-sm-r530nzaaasa-thumb-542191656?$216_216_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "1-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "Dual Mic" },
+          { "label": "Active Noise Cancel", "value": "ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 6 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "440mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.4" },
+          { "label": "Codec", "value": "SBC, AAC" }
+        ]
+      }
+    },
+    {
+      "id": 312,
+      "category": "Audio",
+      "title": "Galaxy Buds2 Pro",
+      "subname": "Galaxy Buds",
+      "rate": 4.5,
+      "price": [189.99, 229.99],
+      "storage": [],
+      "colors": ["#2d2d2d", "#ffffff", "#b8860b"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2208/gallery/sg-galaxy-buds2-pro-r510-sm-r510nlvaxsp-thumb-533199454?$216_216_PNG$",
+      "specs": {
+        "Audio": [
+          { "label": "Speaker", "value": "2-way Dynamic Speaker" },
+          { "label": "Microphone", "value": "High SNR Mic x3" },
+          { "label": "Active Noise Cancel", "value": "Intelligent ANC" }
+        ],
+        "Battery": [
+          { "label": "Playback Time", "value": "Up to 7 hours (ANC on)" },
+          { "label": "Charging", "value": "USB-C / Wireless" },
+          { "label": "Case Battery", "value": "512mAh" }
+        ],
+        "Connectivity": [
+          { "label": "Bluetooth", "value": "5.3" },
+          { "label": "Codec", "value": "SBC, AAC, Samsung Seamless" }
+        ]
+      }
+    },
+    {
+      "id": 313,
+      "category": "Accessories",
+      "title": "Galaxy Ring",
+      "subname": "Galaxy Ring",
+      "rate": 4.2,
+      "price": [399.99, 449.99],
+      "storage": [],
+      "colors": ["#1a1a1a", "#c0c0c0", "#d4af37"],
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/ux4/mx/Mobile_MainCategory_1-6.png?$ORIGIN_PNG$",
+      "specs": {
+        "Sensors": [
+          { "label": "Heart Rate", "value": "Yes" },
+          { "label": "Sleep Tracking", "value": "Yes" },
+          { "label": "Temperature", "value": "Yes" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "20mAh" },
+          { "label": "Charging", "value": "Wireless Charging" },
+          { "label": "Battery Life", "value": "Up to 7 days" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Material", "value": "Titanium" },
+          { "label": "Sizes", "value": "Sizes 5-13" }
+        ]
+      }
+    },
+    {
+      "id": 314,
+      "category": "Accessories",
+      "title": "Galaxy Ring Silver",
+      "subname": "Galaxy Ring",
+      "rate": 4.1,
+      "price": [399.99, 449.99],
+      "storage": [],
+      "colors": ["#c0c0c0"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-q500nzsaasa/gallery/sg-galaxy-ring-q500-sm-q500nzsaasa-thumb-544169369?$216_216_PNG$",
+      "specs": {
+        "Sensors": [
+          { "label": "Heart Rate", "value": "Yes" },
+          { "label": "Sleep Tracking", "value": "Yes" },
+          { "label": "Temperature", "value": "Yes" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "20mAh" },
+          { "label": "Charging", "value": "Wireless Charging" },
+          { "label": "Battery Life", "value": "Up to 7 days" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Material", "value": "Titanium Silver" },
+          { "label": "Sizes", "value": "Sizes 5-13" }
+        ]
+      }
+    },
+    {
+      "id": 315,
+      "category": "Accessories",
+      "title": "Galaxy Ring Gold",
+      "subname": "Galaxy Ring",
+      "rate": 4.3,
+      "price": [399.99, 449.99],
+      "storage": [],
+      "colors": ["#d4af37"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/sm-q500nzdaasa/gallery/sg-galaxy-ring-q500-sm-q500nzdaasa-thumb-544169332?$216_216_PNG$",
+      "specs": {
+        "Sensors": [
+          { "label": "Heart Rate", "value": "Yes" },
+          { "label": "Sleep Tracking", "value": "Yes" },
+          { "label": "Temperature", "value": "Yes" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "20mAh" },
+          { "label": "Charging", "value": "Wireless Charging" },
+          { "label": "Battery Life", "value": "Up to 7 days" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "10ATM + IP68" },
+          { "label": "Material", "value": "Titanium Gold" },
+          { "label": "Sizes", "value": "Sizes 5-13" }
+        ]
+      }
+    },
+    {
+      "id":316,
+      "category": "Accessories",
+      "title": "Galaxy Watch7 Sport Band",
+      "subname": "Galaxy Watch7 Sport Band",
+      "price": 58.0,
+      "colors": ["#1a1a1a", "#c0c0c0", "#d4af37"],
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2407/gallery/sg-galaxy-watch7-sport-band-medium-and-large-et-snl31lwegww-thumb-542035879?$216_216_PNG$",
+      "specs": {
+        "Processor": [
+          { "label": "CPU Speed", "value": "1.4GHz" },
+          { "label": "CPU Type", "value": "Dual Core" }
+        ],
+        "Display": [
+          { "label": "Size", "value": "1.5 inch" },
+          { "label": "Resolution", "value": "480 x 480" },
+          { "label": "Panel Type", "value": "Super AMOLED" }
+        ],
+        "Battery": [
+          { "label": "Capacity", "value": "425mAh" },
+          { "label": "Charging", "value": "USB-C / Wireless" }
+        ],
+        "Features": [
+          { "label": "Water Resistance", "value": "5ATM + IP68" },
+          { "label": "BioActive Sensor", "value": "Yes" }
+        ]
+      }
+    }
+  ],
+  "payment-method": [
+    {
+      "id": 1,
+      "title": "Visa",
+      "image": "https://au2-images.shop.samsung.com/medias/mastercard.png?context=bWFzdGVyfGltYWdlc3w0MTc2fGltYWdlL3BuZ3xhVzFoWjJWekwyaGlZUzlvTldJdk9UY3pOek13TURrMk56UTFOQzV3Ym1jfGNkNTVkOGFhYWE4NmZlZTRlOTNmYzBhY2YzMzZmZTE5ZGIwNDIzM2Q3ZGU4ODE2YzdmODBjZGQzZmU3NTc3OTE"
+    },
+    {
+      "id": 2,
+      "title": "Visa",
+      "image": "https://au2-images.shop.samsung.com/medias/visa.png?context=bWFzdGVyfGltYWdlc3wzMzczfGltYWdlL3BuZ3xhVzFoWjJWekwyZzNNUzlvWldRdk9UY3pOek13TURnek5qTTRNaTV3Ym1jfDJmMzYxM2MyZGJlMzE4MTFmNjg0OTMxMGY4NjU0M2IwNjUwZGNhNzU4NmE1NWQ3YTFkYjZhMGNkNDNjMTkwN2Q"
+    },
+    {
+      "id": 3,
+      "title": "CIM",
+      "image": "https://au2-images.shop.samsung.com/medias/cimb-icon.png?context=bWFzdGVyfHJvb3R8MTU5ODF8aW1hZ2UvcG5nfGFETTNMMmhsWlM4Mk5EQTVPVEE1TVRBNE56TTVNQzlqYVcxaVgybGpiMjR1Y0c1bnwzNjEwMmNhYjkzMDJkZmNjNjBkZTVhNDNmNDE4YTFhMTNhYzBhZWI4MmUzMTg5MmJiOTIwNDUwM2U2NmZhYjQ5"
+    },
+    {
+      "id": 4,
+      "title": "Google Pay",
+      "image": "https://au2-images.shop.samsung.com/medias/Atome.png?context=bWFzdGVyfHJvb3R8ODM1NXxpbWFnZS9wbmd8YUdZMUwyaGlNeTgxTURFeE5UUTVOREF4T1RFd01pOUJkRzl0WlM1d2JtY3wxYTExYTg1NzhiNjgzMzM3NTAwZWI3ZDU3MDRlNzgxMmYxYmNlMTc3ZTgxNzE0ZTMzMWJiZjY5MjQ5OTFhNzg3"
+    },
+    {
+      "id": 5,
+      "title": "Apple Pay",
+      "image": "https://au2-images.shop.samsung.com/medias/Grabpay.png?context=bWFzdGVyfGltYWdlc3wyNjcyOXxpbWFnZS9wbmd8YURSaUwyZzJPUzgxTURFeE5UUTVNemsxTXpVMk5pOUhjbUZpY0dGNUxuQnVad3wwZGFlMDU1YjVlOGM0YjIyNjg1ZGQ0YTU5MjlkZWMzYmNjOWY3MjFlYzQzZDQ1OGY4ZDA0ZjVlZjMzMDlkZTgy"
+    },
+    {
+      "id": 6,
+      "title": "PayNow",
+      "image": "https://au2-images.shop.samsung.com/medias/paynow-logo-2-01-1024x484.png?context=bWFzdGVyfGltYWdlc3w0NDE2MnxpbWFnZS9wbmd8YURRM0wyZ3daaTh4TVRrNU16ZzRNVEF4T0RNNU9DOXdZWGx1YjNjdGJHOW5ieTB5TFRBeExURXdNalI0TkRnMExuQnVad3wwZWVkYTJlZDA2ZmI3YjNjNjk4MTcwYzQ3ZTVjZjQ3NGJjMDQ5ZjBiZjgzMDEwY2E3MjBiMzNiNTAwY2NiNzc2"
+    },
+    {
+      "id": 7,
+      "title": "Samsung Pay",
+      "image": "https://au2-images.shop.samsung.com/medias/Samsung-pay.png?context=bWFzdGVyfHJvb3R8MTAzNDV8aW1hZ2UvcG5nfGFHSTJMMmhpTkM4MU1ERXhOVFE1TkRBNE5EWXpPQzlUWVcxemRXNW5MWEJoZVM1d2JtY3wyZWJjZjg5OTY4Zjg5MzZkY2U0ZWIzY2MyNWQ1YWY4Nzg4YzQzMjI0ZGYzYWRmYzk1ZjdjNmE5OWQ4NGQ4ZjFj"
+    },
+    {
+      "id": 8,
+      "title": "PayLater",
+      "image": "https://au2-images.shop.samsung.com/medias/spaylater-icon.png?context=bWFzdGVyfHJvb3R8Mjg4NTN8aW1hZ2UvcG5nfGFEQmhMMmd4T0M4NE1ESXdOelV6TmpZeE9UVTFNQzl6Y0dGNWJHRjBaWEpmYVdOdmJpNXdibWN8ZmMwNjdhZGQ2MTVmYmZhZTZlM2M5MGFjOTcwMzM3NzA0ZjI1ZWQ1YmVkZmRhNzJjMmI3MDBhM2NjNGZmZGM2Yg"
+    }
+  ],
+  "TvGuide": [
+    {
+      "id": "tv-size",
+      "title": "TV Size",
+      "image": "/images/tv-size-thumb.jpg",
+      "src": "https://www.youtube.com/embed/sr7oBBulJeU?si=W3PS23Q5WxQb92RR"
+    },
+    {
+      "id": "picture-quality",
+      "title": "Picture Quality",
+      "image": "/images/picture-quality-thumb.jpg",
+      "src": "https://www.youtube.com/embed/kNcDZiE7wT0?si=3ctEJCjDZ7JyK-9z"
+    },
+    {
+      "id": "tv-design",
+      "title": "TV Design",
+      "image": "/images/tv-design-thumb.jpg",
+      "src": "https://www.youtube.com/embed/RWE0Sxq9IkY?si=mxSXIWfGiC9cDiyz"
+    },
+    {
+      "id": "tv-sound",
+      "title": "TV Sound",
+      "image": "/images/tv-sound-thumb.jpg",
+      "src": "https://www.youtube.com/embed/PmxF9HEGAPs?si=eAd1xKYxJa3hPEjG"
+    }
+  ],
+  "SmartphoneGuide": [
+    {
+      "id": 1,
+      "title": "Mobile Phone Buying Guide",
+      "description": "Find your perfect device with our guide to screen sizes, storage, camera specs and more.",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/mobile/mobile-phone-buying-guide/19122023/KV_desktop_1_new.jpg?imwidth=1366",
+      "buttonText": "See more"
+    },
+    {
+      "id": 2,
+      "title": "Laptop Buying Guide",
+      "description": "Compare processors, RAM and storage options.",
+      "image": "https://images.samsung.com/is/image/samsung/assets/sg/mobile/mobile-phone-buying-guide/2509/paradigm-offer-page-kv-pc.jpg?imwidth=1366",
+      "buttonText": "Explore"
+    }
+  ],
+  "AppliancesGuide": [
+    {
+      "id": 1,
+      "title": "Bespoke 4-Door French Door Refrigerator",
+      "subtitle": "32 cu. ft. with AI Vision Inside",
+      "price": "$3,299.00",
+      "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?w=600",
+      "badge": "Best Seller"
+    },
+    {
+      "id": 2,
+      "title": "Bespoke AI Front-Load Washer",
+      "subtitle": "9 kg with AI Wash & SmartThings",
+      "price": "$1,399.00",
+      "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600",
+      "badge": "Smart"
+    },
+    {
+      "id": 3,
+      "title": "Bespoke Smart Microwave",
+      "subtitle": "1.6 cu. ft. with Sensor Cook",
+      "price": "$549.00",
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600",
+      "badge": "Premium"
+    },
+    {
+      "id": 4,
+      "title": "Bespoke AI Dishwasher",
+      "subtitle": "14 Place Settings with Auto Open Dry",
+      "price": "$1,199.00",
+      "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600",
+      "badge": "New"
+    }
+  ],
+  "samsung_rewards_program": [
+    {
+      "id": 1,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/rewards/mypage2.0_rewardsmkt_gettingstarted_image_4case_rewards_330x56.png?$330_N_PNG$",
+      "section_title": "Become a Samsung Rewards Member",
+      "steps": [
+        "01. To get started, join as a Samsung Account member.",
+        "02. Next, read and accept the Terms and Conditions.",
+        "03. Check your points and benefits on My Rewards page."
+      ]
+    },
+    {
+      "id": 2,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/rewards/mypage2.0_rewardsmkt_gettingstarted_image_4case_point_330x56.png?$330_N_PNG$",
+      "section_title": "How to earn points on Samsung Online Store",
+      "steps": [
+        "01. Log in to your Samsung Account.",
+        "02. Automatically receive points for every purchase on Samsung.com/sg and Samsung Shop App."
+      ]
+    },
+    {
+      "id": 3,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/rewards/mypage2.0_rewardsmkt_gettingstarted_image_4case_deal_330x56.png?$330_N_PNG$",
+      "section_title": "Redeem your points",
+      "steps": [
+        "01. At checkout, select Samsung Rewards as a payment method (log-in required).",
+        "02. Choose how many points to use and submit. The discount will be applied upon payment."
+      ],
+      "additional_notes": [
+        "You can redeem up to 99% of the purchase price using points.",
+        "Any pending Rewards Points will appear in your account 14 days after your order is completed."
+      ]
+    },
+    {
+      "id": 4,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/rewards/mypage2.0_rewardsmkt_gettingstarted_image_4case_switch_330x56.png?$330_N_PNG$",
+      "section_title": "Convert Your Points",
+      "steps": [
+        "01. Ensure you have available Global Rewards Points.",
+        "02. Convert your Global Rewards Points into MY points and use them for your purchases."
+      ],
+      "additional_notes": [
+        "Rewards points transfers are available between Samsung Rewards Points programs of participating entities.",
+        "Availability of the Global Rewards Points transfer may vary depending on country or region.",
+        "Point conversions are limited to 10 times per day and 30 times per month (based on UTC time)."
+      ]
+    }
+  ],
+  "samsung_advantage_for_students": [
+    {
+      "id": 1,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/students-offers/2-2021_students_offers_ft12_samsung-advantage-for-students/2021_students_offers_FT12_Icon1_pc.png?$570_N_PNG$",
+      "section_title": "Exclusive discount",
+      "steps": ["Enjoy up to 15% discount on exclusive Samsung deals"]
+    },
+    {
+      "id": 2,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/students-offers/2-2021_students_offers_ft12_samsung-advantage-for-students/2021_students_offers_FT12_Icon2_pc.png?$570_N_PNG$",
+      "section_title": "Trade-in",
+      "steps": ["Save on your new Galaxy when you trade-in your current device"]
+    },
+    {
+      "id": 3,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/students-offers/2-2021_students_offers_ft12_samsung-advantage-for-students/2021_students_offers_FT12_Icon3_pc.png?$570_N_PNG$",
+      "section_title": "Free delivery",
+      "steps": [
+        "Enjoy free next day delivery on selected orders made before 1pm from Mon-Thurs"
+      ]
+    },
+    {
+      "id": 4,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/students-offers/2-2021_students_offers_ft12_samsung-advantage-for-students/2021_students_offers_FT12_Icon4_pc.png?$570_N_PNG$",
+      "section_title": "Flexible financing",
+      "steps": ["Enjoy 0% interest instalment for up to 36 months*"]
+    }
+  ],
+  "samsung_government": [
+    {
+      "id": 1,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/business/industries/government/government_icon1_pc_448x154.jpg?$570_N_JPG$",
+      "section_title": "Strength and reliability",
+      "steps": ["Equip teams with tools built for demanding environments"]
+    },
+    {
+      "id": 2,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/business/industries/government/government_icon2_pc_448x154.jpg?$570_N_JPG$",
+      "section_title": "Ready for any mission",
+      "steps": ["Ensure staff is geared up and always-on for their next call"]
+    },
+    {
+      "id": 3,
+      "icon_url": "https://images.samsung.com/is/image/samsung/assets/sg/business/industries/government/government_icon3_pc_448x154.jpg?$570_N_JPG$",
+      "section_title": "Safety & security",
+      "steps": ["Fortify cyber security and public safety measures"]
+    }
+  ],
+  "business": [
+    {
+      "id": "1",
+      "step": "Step 1",
+      "title": "Create Your Account",
+      "description": "Sign up now and enjoy up to 30% off selected products.",
+      "actionLabel": "Sign up",
+      "icon_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXVzZXItcm91bmQtcGx1cy1pY29uIGx1Y2lkZS11c2VyLXJvdW5kLXBsdXMiPjxwYXRoIGQ9Ik0yIDIxYTggOCAwIDAgMSAxMy4yOTItNiIvPjxjaXJjbGUgY3g9IjEwIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xOSAxNnY2Ii8+PHBhdGggZD0iTTIyIDE5aC02Ii8+PC9zdmc+"
+    },
+    {
+      "id": "2",
+
+      "step": "Step 2",
+      "title": "Register Your Business",
+      "description": "Complete and submit the registration form to get benefits.",
+      "actionLabel": "Register now",
+      "icon_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1lc3NhZ2Utc3F1YXJlLXRleHQtaWNvbiBsdWNpZGUtbWVzc2FnZS1zcXVhcmUtdGV4dCI+PHBhdGggZD0iTTIyIDE3YTIgMiAwIDAgMS0yIDJINi44MjhhMiAyIDAgMCAwLTEuNDE0LjU4NmwtMi4yMDIgMi4yMDJBLjcxLjcxIDAgMCAxIDIgMjEuMjg2VjVhMiAyIDAgMCAxIDItMmgxNmEyIDIgMCAwIDEgMiAyeiIvPjxwYXRoIGQ9Ik03IDExaDEwIi8+PHBhdGggZD0iTTcgMTVoNiIvPjxwYXRoIGQ9Ik03IDdoOCIvPjwvc3ZnPg=="
+    },
+    {
+      "id": "3",
+
+      "step": "Step 3",
+      "title": "Approval in Progress",
+      "description": "Your registration will be reviewed, and you'll receive approval within 5 business days.",
+      "actionLabel": null,
+      "icon_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1vbml0b3ItY2hlY2staWNvbiBsdWNpZGUtbW9uaXRvci1jaGVjayI+PHBhdGggZD0ibTkgMTAgMiAyIDQtNCIvPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iMyIgcng9IjIiLz48cGF0aCBkPSJNMTIgMTd2NCIvPjxwYXRoIGQ9Ik04IDIxaDgiLz48L3N2Zz4="
+    },
+    {
+      "id": "4",
+
+      "step": "Done!",
+      "title": "Start Shopping",
+      "description": "Access exclusive benefits and savings as a registered member.",
+      "actionLabel": null,
+      "icon_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNob3BwaW5nLWJhZy1pY29uIGx1Y2lkZS1zaG9wcGluZy1iYWciPjxwYXRoIGQ9Ik0xNiAxMGE0IDQgMCAwIDEtOCAwIi8+PHBhdGggZD0iTTMuMTAzIDYuMDM0aDE3Ljc5NCIvPjxwYXRoIGQ9Ik0zLjQgNS40NjdhMiAyIDAgMCAwLS40IDEuMlYyMGEyIDIgMCAwIDAgMiAyaDE0YTIgMiAwIDAgMCAyLTJWNi42NjdhMiAyIDAgMCAwLS40LTEuMmwtMi0yLjY2N0EyIDIgMCAwIDAgMTcgMkg3YTIgMiAwIDAgMC0xLjYuOHoiLz48L3N2Zz4="
+    }
+  ],
+  "monitors": [
+    {
+      "id": 1,
+      "title": "Odyssey OLED G8 34\"",
+      "subtitle": "Ultra-wide Gaming Monitor",
+      "price": "$1,299.00",
+      "image": "https://images.unsplash.com/photo-1619953942547-233eab5a70d6?w=600",
+      "badge": "Gaming"
+    },
+    {
+      "id": 2,
+      "title": "Smart Monitor M8 32\"",
+      "subtitle": "4K UHD Smart Monitor",
+      "price": "$699.00",
+      "image": "https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?w=600",
+      "badge": "Smart"
+    },
+    {
+      "id": 3,
+      "title": "Curved Monitor S65U 34\"",
+      "subtitle": "Ultra-Wide WQHD",
+      "price": "$549.00",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600",
+      "badge": "Office"
+    },
+    {
+      "id": 4,
+      "title": "High Resolution Monitor S9 27\"",
+      "subtitle": "5K UHD Thunderbolt 4",
+      "price": "$1,599.00",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600",
+      "badge": "Professional"
+    }
+  ],
+
+  "$schema": "./node_modules/json-server/schema.json"
+}

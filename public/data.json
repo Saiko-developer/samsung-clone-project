@@ -1,0 +1,338 @@
+﻿[
+  {
+    "id": "p-phone-1",
+    "title": "Galaxy S25 Ultra",
+    "description": "200MP camera, S Pen, 6.9 inch Dynamic AMOLED display — the ultimate Galaxy experience.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "s25", "ultra", "smartphone", "camera", "200mp", "spen", "flagship", "phone"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-phone-2",
+    "title": "Galaxy S25 Plus",
+    "description": "Premium smartphone with 6.7 inch display and pro-grade camera system.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "s25", "plus", "smartphone", "phone", "camera"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-phone-3",
+    "title": "Galaxy S25",
+    "description": "Powerful everyday smartphone with advanced Galaxy AI features.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "s25", "base", "smartphone", "phone", "ai"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-phone-4",
+    "title": "Galaxy Z Fold 7",
+    "description": "7.6 inch foldable display with multitasking, S Pen support and flagship cameras.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "z fold", "fold7", "foldable", "smartphone", "folding", "tablet"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-phone-5",
+    "title": "Galaxy Z Flip 7",
+    "description": "Compact foldable with Flex Mode, 50MP camera and sleek design.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "z flip", "flip7", "foldable", "compact", "smartphone", "flex mode"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-s26-1",
+    "title": "Galaxy S26 Ultra",
+    "description": "Next-gen flagship with AI-powered camera and enhanced performance.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "s26", "ultra", "flagship", "ai", "camera", "new"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-s26-2",
+    "title": "Galaxy S26+",
+    "description": "Premium new smartphone with stunning display and pro camera.",
+    "category": "Smartphones",
+    "keywords": ["samsung", "galaxy", "s26", "plus", "smartphone", "new"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tabs-1",
+    "title": "Galaxy Tab S10 Ultra",
+    "description": "14.6 inch Dynamic AMOLED 2X display, MediaTek Dimensity processor, S Pen included.",
+    "category": "Tablets",
+    "keywords": ["samsung", "galaxy", "tab", "s10", "ultra", "tablet", "spen", "amoled", "14.6 inch", "android"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tabs-2",
+    "title": "Galaxy Tab S10 Plus",
+    "description": "12.4 inch display tablet perfect for productivity, creativity and entertainment.",
+    "category": "Tablets",
+    "keywords": ["samsung", "galaxy", "tab", "s10", "plus", "tablet", "android", "productivity"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tabs-3",
+    "title": "Galaxy Tab A10",
+    "description": "Affordable 10.1 inch tablet for everyday use with crisp display.",
+    "category": "Tablets",
+    "keywords": ["samsung", "galaxy", "tab", "a10", "tablet", "affordable", "budget", "android"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tabs-4",
+    "title": "Galaxy Tab Active 6",
+    "description": "Rugged 10.1 inch tablet built for tough environments, IP68, MIL-STD-810H.",
+    "category": "Tablets",
+    "keywords": ["samsung", "galaxy", "tab", "active", "6", "rugged", "tablet", "ip68", "military", "durable"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tabs-5",
+    "title": "Galaxy Tab S9 FE",
+    "description": "Fan Edition tablet with S Pen, 10.9 inch display and great value.",
+    "category": "Tablets",
+    "keywords": ["samsung", "galaxy", "tab", "s9", "fe", "tablet", "spen", "fan edition", "android"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-watch-1",
+    "title": "Galaxy Watch8 44mm",
+    "description": "Advanced smartwatch with BioActive sensor, sapphire crystal, 5ATM water resistance.",
+    "category": "Smart Watches",
+    "keywords": ["samsung", "galaxy", "watch8", "smartwatch", "wearable", "fitness", "health", "bioactive", "watch"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-watch-2",
+    "title": "Galaxy Watch Ultra",
+    "description": "Premium rugged smartwatch with titanium design for extreme adventures.",
+    "category": "Smart Watches",
+    "keywords": ["samsung", "galaxy", "watch", "ultra", "smartwatch", "rugged", "titanium", "adventure", "wearable"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-watch-3",
+    "title": "Galaxy Ring",
+    "description": "Smart ring for 24/7 health monitoring, sleep tracking and wellness insights.",
+    "category": "Smart Watches",
+    "keywords": ["samsung", "galaxy", "ring", "smart ring", "wearable", "health", "wellness", "fitness", "sleep"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-audio-1",
+    "title": "Galaxy Buds4 Pro",
+    "description": "Premium wireless earbuds with Intelligent ANC, Hi-Fi sound and 360 Audio.",
+    "category": "Audio",
+    "keywords": ["samsung", "galaxy", "buds4", "pro", "earbuds", "wireless", "audio", "anc", "noise cancelling", "headphones"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-audio-2",
+    "title": "Galaxy Buds3 Pro",
+    "description": "Premium earbuds with intelligent sound, adaptive noise control and comfortable fit.",
+    "category": "Audio",
+    "keywords": ["samsung", "galaxy", "buds3", "pro", "earbuds", "wireless", "audio", "anc", "headphones"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-audio-3",
+    "title": "Music Studio 5 LS51H Soundbar",
+    "description": "5.1.2ch soundbar with Dolby Atmos, Q-Symphony and wireless subwoofer.",
+    "category": "Audio",
+    "keywords": ["samsung", "music studio", "ls51h", "soundbar", "audio", "dolby atmos", "q-symphony", "speaker"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tv-1",
+    "title": "OLED S95F 4K Samsung Vision AI TV",
+    "description": "77 inch OLED TV with Vision AI, Neo Quantum processor and Dolby Atmos.",
+    "category": "TV & Home",
+    "keywords": ["samsung", "oled", "s95f", "4k", "tv", "television", "ai", "dolby atmos", "quantum", "77 inch"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tv-2",
+    "title": "OLED S90H 4K Samsung Vision AI TV",
+    "description": "65 inch OLED TV with Vision AI, sleek design and immersive audio.",
+    "category": "TV & Home",
+    "keywords": ["samsung", "oled", "s90h", "4k", "tv", "television", "ai", "65 inch"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tv-3",
+    "title": "The Frame LS03HE 4K TV",
+    "description": "75 inch The Frame TV with Art Mode — transforms into a canvas when not watching.",
+    "category": "TV & Home",
+    "keywords": ["samsung", "the frame", "ls03he", "4k", "tv", "art", "mode", "canvas", "75 inch", "design"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-tv-4",
+    "title": "Neo QLED 4K TV",
+    "description": "Premium Neo QLED TV with Quantum Matrix Technology and stunning picture quality.",
+    "category": "TV & Home",
+    "keywords": ["samsung", "neo", "qled", "4k", "tv", "television", "quantum", "matrix", "premium"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-appliance-1",
+    "title": "Bespoke AI Front-load Washer 9kg",
+    "description": "Smart washer with AI Wash, 15 min quick wash and Eco Bubble technology.",
+    "category": "Appliances",
+    "keywords": ["samsung", "bespoke", "ai", "washer", "washing machine", "9kg", "appliance", "laundry", "ecobubble"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-appliance-2",
+    "title": "Galaxy Refrigerator",
+    "description": "Smart refrigerator with Twin Auto Ice Maker and AI Energy Mode, 820L capacity.",
+    "category": "Appliances",
+    "keywords": ["samsung", "galaxy", "refrigerator", "fridge", "appliance", "ice maker", "820l", "ai energy"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-appliance-3",
+    "title": "Galaxy Dishwasher",
+    "description": "Smart dishwasher with 14 place settings, Auto Wash and Smart Dry.",
+    "category": "Appliances",
+    "keywords": ["samsung", "galaxy", "dishwasher", "appliance", "kitchen", "smart", "auto wash"],
+    "filePath": "/products"
+  },
+  {
+    "id": "p-monitor-1",
+    "title": "Galaxy Monitor M8",
+    "description": "32 inch 4K UHD smart monitor with built-in streaming apps and USB-C 65W charging.",
+    "category": "Computing & Monitors",
+    "keywords": ["samsung", "galaxy", "monitor", "m8", "4k", "uhd", "32 inch", "smart", "usb-c", "display"],
+    "filePath": "/products"
+  },
+  {
+    "id": "s-rewards-1",
+    "title": "Samsung Rewards",
+    "description": " Earn Samsung Reward points on every purchase. Redeem for exclusive perks.",
+    "category": "Services",
+    "keywords": ["rewards", "points", "loyalty", "earn", "redeem"],
+    "filePath": "/services/Rewards"
+  },
+  {
+    "id": "s-care-1",
+    "title": "Samsung Care+",
+    "description": "Keep your Galaxy device protected with extended warranty, accidental damage coverage.",
+    "category": "Services",
+    "keywords": [ "care", "plus", "protection", "warranty", "insurance", "device", "coverage", "repair"],
+    "filePath": "/services/Care"
+  },
+  {
+    "id": "s-delivery-1",
+    "title": "Free Delivery",
+    "description": "Enjoy free doorstep delivery on all purchases from the Online Store.",
+    "category": "Services",
+    "keywords": [ "free", "delivery", "shipping", "doorstep", "online", "store"],
+    "filePath": "/services/Delivery"
+  },
+  {
+    "id": "s-plan-1",
+    "title": "0% Instalment Plans",
+    "description": "Interest-free monthly instalments for purchases above $500.",
+    "category": "Services",
+    "keywords": ["samsung instalment", "instalment", "0%", "interest", "free", "payment", "plan", "monthly", "credit"],
+    "filePath": "/services/Plan"
+  },
+  {
+    "id": "g-phone-1",
+    "title": "Find Your Smartphone Guide",
+    "description": "Compare models and find the perfect Galaxy smartphone for your needs.",
+    "category": "Guide",
+    "keywords": ["guide", "smartphone guide", "find", "compare", "galaxy", "help", "choose", "selector"],
+    "filePath": "/Guide/SmartPhone"
+  },
+  {
+    "id": "g-tv-1",
+    "title": "Find Your TV Guide",
+    "description": "Explore TV models and find the perfect Samsung TV for your home.",
+    "category": "Guide",
+    "keywords": ["guide", "tv", "television", "find", "compare", "samsung", "help", "choose"],
+    "filePath": "/Guide/Tv"
+  },
+  {
+    "id": "g-appliance-1",
+    "title": "Find Your Appliance Guide",
+    "description": "Discover the right Samsung appliance for your kitchen and home needs.",
+    "category": "Guide",
+    "keywords": ["guide", "appliance", "find", "compare", "kitchen", "help", "choose"],
+    "filePath": "/Guide/Appliance"
+  },
+  {
+    "id": "g-monitor-1",
+    "title": "Find Your Monitor Guide",
+    "description": "Compare monitors and find the perfect Samsung display for work or play.",
+    "category": "Guide",
+    "keywords": ["guide", "monitor", "find", "compare", "display", "help", "choose", "samsung"],
+    "filePath": "/Guide/Monitor"
+  },
+  {
+    "id": "st-student-1",
+    "title": "For Students Store",
+    "description": "Exclusive Samsung offers and discounts for students with valid education credentials.",
+    "category": "Store",
+    "keywords": ["samsung", "student", "store", "discount", "offer", "education", "exclusive", "campus"],
+    "filePath": "/store/student"
+  },
+  {
+    "id": "st-employee-1",
+    "title": "For Partner Employees Store",
+    "description": "Exclusive Samsung offers and discounts for partner employees.",
+    "category": "Store",
+    "keywords": ["samsung", "partner", "employee", "store", "discount", "offer", "exclusive"],
+    "filePath": "/store/employee"
+  },
+  {
+    "id": "st-business-1",
+    "title": "For Business Store",
+    "description": "Samsung business solutions, enterprise-grade products and B2B pricing.",
+    "category": "Store",
+    "keywords": ["samsung", "business", "enterprise", "store", "b2b", "solutions", "corporate"],
+    "filePath": "/store/business"
+  },
+  {
+    "id": "st-gov-1",
+    "title": "For Government Store",
+    "description": "Samsung government solutions and public sector product offerings.",
+    "category": "Store",
+    "keywords": ["samsung", "government", "public sector", "store", "solutions", "federal"],
+    "filePath": "/store/government"
+  },
+  {
+    "id": "o-aiweek-1",
+    "title": "Samsung AI Week",
+    "description": "Discover your companion to AI Living with up to 30% off and exclusive bundles.",
+    "category": "Offers",
+    "keywords": ["samsung", "ai", "week", "offer", "promotion", "deal", "discount", "bundle", "exclusive"],
+    "filePath": "/"
+  },
+  {
+    "id": "o-liveshop-1",
+    "title": "Samsung Live Shop",
+    "description": "Stream in and unlock the best deals live with exclusive flash deals.",
+    "category": "Offers",
+    "keywords": ["samsung", "live", "shop", "stream", "deal", "flash", "offer", "exclusive"],
+    "filePath": "/"
+  },
+  {
+    "id": "o-cart-1",
+    "title": "Cart & Checkout",
+    "description": "View your cart, apply promo codes, and complete your purchase securely.",
+    "category": "Shopping",
+    "keywords": ["samsung", "cart", "checkout", "shopping", "buy", "purchase", "order", "payment"],
+    "filePath": "/cart"
+  },
+  {
+    "id": "o-store-1",
+    "title": "Samsung Online Store",
+    "description": "Browse all products, offers and exclusive online-only deals.",
+    "category": "Shopping",
+    "keywords": ["samsung", "online", "store", "shop", "all products", "browse", "deals", "homepage"],
+    "filePath": "/"
+  }
+]
