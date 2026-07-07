@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const productApiUrl = `${process.env.NEXT_PUBLIC_API_URL}/products`;
+export const productApiUrl = "/api/products";
 
 export const fetchProduct = (...args) =>
   fetch(...args).then((res) => res.json());
@@ -12,4 +12,3 @@ export const useProducts = create((set) => ({
   selectedProduct:null,
   setSelectedProduct:(selectedProduct) => set({selectedProduct})
 }));
-
