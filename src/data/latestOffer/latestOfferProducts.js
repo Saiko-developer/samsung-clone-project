@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const latestOfferProductsApiUrl = "/api/latestOfferProducts";
+export const latestOfferProductsApiUrl = "/api/data/latestOfferProducts";
 
 export const fetchProduct = (...args) =>
   fetch(...args).then((res) => res.json());

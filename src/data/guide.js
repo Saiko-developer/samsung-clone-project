@@ -1,4 +1,4 @@
-export const GuideApiUrl = "/api/guide";
+export const GuideApiUrl = "/api/data/guide";
 
 export const fetchGuide = (...args) =>
   fetch(...args).then((res) => res.json());

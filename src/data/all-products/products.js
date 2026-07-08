@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 
-export const AllProductsApiUrl = "/api/all-products";
+export const AllProductsApiUrl = "/api/data/all-products";
 
 export const fetchAllProducts = (...args) =>
   fetch(...args).then((res) => res.json());

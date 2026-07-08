@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const productApiUrl = "/api/products";
+export const productApiUrl = "/api/data/products";
 
 export const fetchProduct = (...args) =>
   fetch(...args).then((res) => res.json());
