@@ -5,7 +5,6 @@ import { CategoryApiUrl, fetchCategory } from "@/data/latest/categories";
 import useSWR from "swr";
 import NavbarSection from "../components/NavbarSection";
 import { ShoppingCart, UserKey, Menu, X, Search } from "lucide-react";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 import Link from "next/link";
 import useVoucherStore from "@/data/cart";
 import { useRouter } from "next/navigation";
@@ -125,7 +124,6 @@ const Navbar = () => {
 
               {/* Mobile Icons */}
               <div className="flex items-center gap-4 pt-3 border-t border-gray-200 dark:border-gray-700 mt-2">
-                <ThemeToggle />
                 {/* Mobile Search Trigger */}
                 <button
                   onClick={() => {
@@ -149,9 +147,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link href={"/login"}>
-                  <button>
-                    <UserKey className="w-5 h-5 md:w-5 md:h-5" />
-                  </button>
+                  <UserKey className="w-5 h-5 md:w-5 md:h-5 cursor-pointer" />
                 </Link>
               </div>
             </div>
