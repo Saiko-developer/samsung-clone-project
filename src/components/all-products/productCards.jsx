@@ -320,7 +320,7 @@ const ProductCards = ({ products }) => {
                   className=" pl-2 md:basis-1/3 lg:basis-1/4 p-2"
                 >
                   <div
-                    onClick={() => { setSelectedProduct(product); router.push(`/products/${product.id}`); }}
+                   
                     className="border rounded-xl p-4 bg-gray-50 shadow-sm h-full"
                   >
                     <div className="flex items-center justify-center">
@@ -395,7 +395,9 @@ const ProductCards = ({ products }) => {
                       <button onClick={() => handleClick(product)} className="border bg-black text-white p-1 mb-2 rounded-xl hover:bg-white hover:text-black transition duration-500">
                         Buy
                       </button>
-                      <button className="border rounded-xl p-1 hover:bg-black hover:text-white transition duration-300">
+                      <button
+                       onClick={() => { setSelectedProduct(product); router.push(`/products/${product.id}`); }}
+                       className="border rounded-xl p-1 hover:bg-black hover:text-white transition duration-300">
                         Learn More
                       </button>
                     </div>
