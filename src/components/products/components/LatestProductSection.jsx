@@ -20,14 +20,6 @@ import {
   newAndFeaturesUrl,
 } from "@/data/newIn&Features/data";
 import { useRouter } from "next/navigation";
-const categoryMap = {
-  Smartphones: "Galaxy Smartphone",
-  Tablets: "Galaxy Tab",
-  Wearables: "Galaxy Watch",
-  Audio: "Galaxy Buds",
-  Accessories: "Galaxy Ring",
-};
-
 const LatestProductSection = () => {
   const {
     data: products,
@@ -35,7 +27,9 @@ const LatestProductSection = () => {
     error: productsError,
   } = useSWR(productApiUrl, fetchProduct);
   const router = useRouter();
-  const setSelectedProduct = useLatestProducts((state) => state.setSelectedProduct);
+  const setSelectedProduct = useLatestProducts(
+    (state) => state.setSelectedProduct,
+  );
 
   // Fetch newAndFeatures from the same API
 
@@ -48,13 +42,13 @@ const LatestProductSection = () => {
   const subname = useLatestProducts((state) => state.subname);
   const setSubname = useLatestProducts((state) => state.setSubname);
   const setCategory = useAllProducts((state) => state.setCategory);
-  
+
   const handleViewAll = () => {
     setCategory(category);
     setSubname(subname);
 
     router.push("/products");
-};
+  };
 
   const normalize = (str) => (str ?? "").toLowerCase().replace(/[-\s&]/g, "");
 
@@ -140,8 +134,8 @@ const LatestProductSection = () => {
   }
 
   return (
-    <section className="w-full bg-stone-100 p-5">
-      <div className="flex flex-col mb-2 ">
+    <section className="w-full bg-stone-100 p-1 md:p-5 lg:p-5">
+      <div className="flex flex-col mb-2 items-center">
         <div className="flex justify-center items-center gap-3">
           {/* Render unique subname filter buttons */}
           {uniqueSubnames.map((name, index) => (
@@ -158,12 +152,26 @@ const LatestProductSection = () => {
             </button>
           ))}
         </div>
-        <div className="flex justify-end items-center mt-3">
+        
+      </div>
+      <div className=" flex justify-end mt-3">
           {!isNewAndFeatures && finalFilterProducts.length > 0 && (
-            <button onClick={handleViewAll}>View All</button>
+            <button className="border rounded-xl px-3 py-2  " onClick={handleViewAll}>View All</button>
           )}
         </div>
-      </div>
+
+      {finalFilterProducts.length === 0 && (
+        <div className="w-full text-center py-16 px-4 bg-gray-50 rounded-2xl border border-gray-100 my-6">
+          <div className="text-3xl mb-4 opacity-80">✨</div>
+          <h3 className="text-gray-900 font-semibold text-lg tracking-tight">
+            Temporarily Sold Out
+          </h3>
+          <p className="text-gray-500 text-sm mt-1.5 max-w-sm mx-auto leading-relaxed">
+            These items flew off our shelves. Let us notify you the exact moment
+            they return.
+          </p>
+        </div>
+      )}
 
       <Carousel
         className="w-full mb-5"

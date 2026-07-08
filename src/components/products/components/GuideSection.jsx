@@ -24,7 +24,7 @@ const GuideSection = () => {
   }
 
   return (
-    <section className="flex flex-col p-5">
+    <section className="flex flex-col p-1 ">
       <div className="mb-3">
         <h1 className="text-4xl font-mono font-bold">Buying guide</h1>
       </div>
@@ -43,8 +43,8 @@ const GuideSection = () => {
             >
               <div className="bg-stone-200 rounded-3xl overflow-hidden">
                 <div>
-                  <div className="p-4 sm:p-5 md:p-6 text-center">
-                    <h5 className="mt-3 mb-4 sm:mb-6 text-lg sm:text-xl md:text-2xl font-semibold tracking-tight text-heading">
+                  <div className=" md:p-6 text-center">
+                    <h5 className="md:h-15 mb-5 text-lg sm:text-xl md:text-2xl font-semibold tracking-tight text-heading">
                       {guide.title}
                     </h5>
 

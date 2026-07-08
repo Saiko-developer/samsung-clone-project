@@ -53,7 +53,7 @@ const onSelect = useCallback((apiInstance) => {
     );
   }
   return (
-    <section className="flex flex-col p-5 ">
+    <section className="flex flex-col p-1 md:p-2 lg:p-2 ">
       <div className="">
           <h1 className="text-4xl font-mono font-bold">Special Stores</h1>
         </div>

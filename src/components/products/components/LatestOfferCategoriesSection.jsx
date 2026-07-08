@@ -33,16 +33,16 @@ const LatestOfferCategoriesSection = () => {
   return (
     <main>
       <div className="p-3 md:p-5">
-        <h1 className="text-2xl md:text-4xl font-mono font-bold">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-mono font-bold">
           Latest Offers
         </h1>
       </div>
-      <section className="flex justify-center items-center gap-4">
+      <section className="flex justify-center items-center gap-2 md:gap-5 lg:gap-5">
         {categories?.map((category) => (
           <button
             onClick={() => setCategory(category.name)}
             key={category.id}
-            className="font-bold font-mono active:border-b-2 active:border-black text-xs md:2xl lg:2xl"
+            className="font-bold font-mono active:border-b-2 active:border-black text-xs md:text-2xl lg:text-2xl"
           >
             {category.name}
           </button>

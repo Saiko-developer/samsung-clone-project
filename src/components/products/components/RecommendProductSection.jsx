@@ -63,7 +63,7 @@ const RecommendedProductSection = () => {
             Recommended For You
           </h1>
         </div>
-      <section className="w-full bg-stone-100 dark:bg-gray-900 p-3 md:p-5">
+      <section className="w-full bg-stone-100 dark:bg-gray-900 p-2 md:p-5">
       <Carousel
         className="w-full mb-5"
         setApi={setApi}
@@ -77,7 +77,7 @@ const RecommendedProductSection = () => {
           {products?.map((product) => (
             <CarouselItem
               key={product.id}
-              className="basis-1/2 pl-1 md:basis-1/3 lg:basis-1/4 p-2"
+              className="basis-1/2 pl-1 md:basis-1/3 lg:basis-1/4 p-1"
             >
               <Card className="h-105 w-full">
                 <CardContent onClick={() => { setSelectedProduct(product); router.push(`/products/${product.id}`); }}  className="flex flex-col p-4 h-full">

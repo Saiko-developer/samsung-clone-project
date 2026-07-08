@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useCallback } from "react";
 import {
   Select,
   SelectContent,
@@ -9,6 +9,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import useVoucherStore from "@/data/cart";
 import { useProductStore } from "@/data/all-products/products";
 import { useRouter } from "next/navigation";
@@ -35,7 +42,6 @@ const ProductCards = ({ products }) => {
   const router = useRouter(); 
   const setSelectedProduct = useProductStore((state) => state.setSelectedProduct);
   
-  
 
   // Reset all filters immediately when products change (subname/category switch)
   useEffect(() => {
@@ -56,11 +62,6 @@ const ProductCards = ({ products }) => {
     return products.map((p) => p.id).join("-");
   }, [products]);
 
-  if (!products || products.length === 0) {
-    return (
-      <p className="text-center text-gray-400 py-10">No products found.</p>
-    );
-  }
   // Collect all unique filter options from the products
   const storageOptions = useMemo(() => {
     const options = products
@@ -158,6 +159,9 @@ const ProductCards = ({ products }) => {
   };
 
   const hasActiveFilters = selectedStorage || selectedColor || priceRange;
+  const [api, setApi] = useState(null);
+  const [progress, setProgress] = useState(0);
+
   const handleClick = (product) => {
     const selectedStorage = cardStorage[product.id] || (Array.isArray(product.storage) ? product.storage[0] : null);
     const selectedColor = cardColor[product.id] || (Array.isArray(product.colors) ? product.colors[0] : null);
@@ -175,6 +179,32 @@ const ProductCards = ({ products }) => {
       selectedColor,
     });
   };
+
+  const onSelect = useCallback((apiInstance) => {
+    if (!apiInstance) return;
+    const selectedIndex = apiInstance.selectedScrollSnap();
+    const totalSlides = apiInstance.scrollSnapList().length;
+    if (totalSlides > 0) {
+      const progressValue = ((selectedIndex + 1) / totalSlides) * 100;
+      setProgress(Math.round(progressValue));
+    }
+  }, []);
+
+  // Early return for empty products AFTER all hooks are called
+  if (!products || products.length === 0) {
+    return (
+      <div className="w-full text-center py-16 px-4 bg-gray-50 rounded-2xl border border-gray-100 my-6">
+          <div className="text-3xl mb-4 opacity-80">✨</div>
+          <h3 className="text-gray-900 font-semibold text-lg tracking-tight">
+            Temporarily Sold Out
+          </h3>
+          <p className="text-gray-500 text-sm mt-1.5 max-w-sm mx-auto leading-relaxed">
+            These items flew off our shelves. Let us notify you the exact moment
+            they return.
+          </p>
+        </div>
+    )
+  }
 
   return (
     <>
@@ -267,105 +297,138 @@ const ProductCards = ({ products }) => {
         )}
       </div>
 
-      {/* Product Grid */}
-      <div className=" grid grid-cols-1  mx-15 md:mx-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
-        {visibleProducts.length > 0 ? (
-          visibleProducts.map((product) => {
-            const currentStorage = cardStorage[product.id] || (Array.isArray(product.storage) ? product.storage[0] : null);
-            const currentColor = cardColor[product.id] || (Array.isArray(product.colors) ? product.colors[0] : null);
-            const displayPrice = getSelectedPrice(product, currentStorage);
+      {/* Product Carousel */}
+      {visibleProducts.length > 0 ? (
+        <Carousel
+          className="w-full mb-5"
+          setApi={setApi}
+          opts={{
+            align: "start",
+            loop: false,
+            dragFree: true,
+          }}
+        >
+          <CarouselContent className="flex w-full sm:p-5 mb:p-5 lg:p-5">
+            {visibleProducts.map((product) => {
+              const currentStorage = cardStorage[product.id] || (Array.isArray(product.storage) ? product.storage[0] : null);
+              const currentColor = cardColor[product.id] || (Array.isArray(product.colors) ? product.colors[0] : null);
+              const displayPrice = getSelectedPrice(product, currentStorage);
 
-            return (
-              <div
-              onClick={() => { setSelectedProduct(product); router.push(`/products/${product.id}`); }} 
-                key={product.id}
-                className="border rounded-xl p-4 bg-gray-50 shadow-sm w-80"
-              >
-                <div className="flex items-center justify-center ">
-                  <Image
-                    src={product.image}
-                    alt={product.title}
-                    width={200}
-                    height={200}
-                    className=" w-35 h-35 hover:scale-105 transform transition duration-500"
-                  />
-                </div>
-                <div className="mt-3">
-                  <h3 className="font-semibold text-lg">{product.title}</h3>
-                  {product.subname && (
-                    <p className="text-sm text-gray-500">{product.subname}</p>
-                  )}
-                  {product.rate && (
-                    <p className="text-yellow-500 text-sm mt-1">
-                      ★ {product.rate}
-                    </p>
-                  )}
-                </div>
-
-                {/* Storage Selection */}
-                {product.storage && product.storage.length > 0 && (
-                  <div className="flex gap-2 mt-2 flex-wrap">
-                    {product.storage.map((s) => (
-                      <button
-                        key={s}
-                        onClick={() => setCardStorage((prev) => ({ ...prev, [product.id]: s }))}
-                        className={`border rounded-md px-2 py-0.5 text-xs transition ${
-                          currentStorage === s
-                            ? "border-blue-500 bg-blue-50 text-blue-600 font-semibold"
-                            : "border-gray-300 text-gray-600 hover:border-gray-500"
-                        }`}
-                      >
-                        {s}
-                      </button>
-                    ))}
-                  </div>
-                )}
-
-                {/* Color Selection */}
-                {product.colors && product.colors.length > 0 && (
-                  <div className="flex gap-1.5 mt-2 flex-wrap">
-                    {product.colors.map((c) => (
-                      <button
-                        key={c}
-                        onClick={() => setCardColor((prev) => ({ ...prev, [product.id]: c }))}
-                        className={`w-5 h-5 rounded-full border-2 transition ${
-                          currentColor === c
-                            ? "border-blue-500 scale-110"
-                            : "border-gray-300 hover:border-gray-500"
-                        }`}
-                        style={{ backgroundColor: c }}
-                        title={c}
+              return (
+                <CarouselItem
+                  key={product.id}
+                  className=" pl-2 md:basis-1/3 lg:basis-1/4 p-2"
+                >
+                  <div
+                    onClick={() => { setSelectedProduct(product); router.push(`/products/${product.id}`); }}
+                    className="border rounded-xl p-4 bg-gray-50 shadow-sm h-full"
+                  >
+                    <div className="flex items-center justify-center">
+                      <Image
+                        src={product.image}
+                        alt={product.title}
+                        width={200}
+                        height={200}
+                        className="w-35 h-35 hover:scale-105 transform transition duration-500"
                       />
-                    ))}
+                    </div>
+                    <div className="mt-3 ">
+                      <h3 className="font-semibold text-lg ">{product.title}</h3>
+                      {product.subname && (
+                        <p className="text-sm text-gray-500">{product.subname}</p>
+                      )}
+                      {product.rate && (
+                        <p className="text-yellow-500 text-sm mt-1">
+                          ★ {product.rate}
+                        </p>
+                      )}
+                    </div>
+
+                    {/* Storage Selection */}
+                    {product.storage && product.storage.length > 0 && (
+                      <div className="flex gap-2 mt-2 flex-wrap">
+                        {product.storage.map((s) => (
+                          <button
+                            key={s}
+                            onClick={() => setCardStorage((prev) => ({ ...prev, [product.id]: s }))}
+                            className={`border rounded-md px-2 py-0.5 text-xs transition ${
+                              currentStorage === s
+                                ? "border-blue-500 bg-blue-50 text-blue-600 font-semibold"
+                                : "border-gray-300 text-gray-600 hover:border-gray-500"
+                            }`}
+                          >
+                            {s}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Color Selection */}
+                    {product.colors && product.colors.length > 0 && (
+                      <div className="flex gap-1.5 mt-2 flex-wrap">
+                        {product.colors.map((c) => (
+                          <button
+                            key={c}
+                            onClick={() => setCardColor((prev) => ({ ...prev, [product.id]: c }))}
+                            className={`w-5 h-5 rounded-full border-2 transition ${
+                              currentColor === c
+                                ? "border-blue-500 scale-110"
+                                : "border-gray-300 hover:border-gray-500"
+                            }`}
+                            style={{ backgroundColor: c }}
+                            title={c}
+                          />
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Price display — shows selected storage price */}
+                    <div>
+                      {displayPrice != null && (
+                        <p className="text-yellow-500 text-sm mt-1">
+                          ${Number(displayPrice).toFixed(2)}
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="flex flex-col w-full">
+                      <button onClick={() => handleClick(product)} className="border bg-black text-white p-1 mb-2 rounded-xl hover:bg-white hover:text-black transition duration-500">
+                        Buy
+                      </button>
+                      <button className="border rounded-xl p-1 hover:bg-black hover:text-white transition duration-300">
+                        Learn More
+                      </button>
+                    </div>
                   </div>
-                )}
-
-                {/* Price display — shows selected storage price */}
-                <div>
-                  {displayPrice != null && (
-                    <p className="text-yellow-500 text-sm mt-1">
-                      ${Number(displayPrice).toFixed(2)}
-                    </p>
-                  )}
-                </div>
-
-                <div className="flex flex-col w-full">
-                  <button onClick={() => handleClick(product)} className="border bg-black text-white p-1 mb-2 rounded-xl hover:bg-white hover:text-black transition duration-500">
-                    Buy
-                  </button>
-                  <button className="border rounded-xl p-1 hover:bg-black hover:text-white transition duration-300">
-                    Learn More
-                  </button>
-                </div>
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+          {visibleProducts.length > 4 && (
+            <div className="flex items-center justify-center gap-4 mt-6">
+              <div className="w-150 h-0.5 bg-stone-300 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-gray-500 rounded-full transition-all duration-300 ease-out"
+                  style={{ width: `${progress}%` }}
+                />
               </div>
-            );
-          })
-        ) : (
-          <p className="col-span-full text-center text-gray-400 py-10">
-            No products match the selected filters.
+              <CarouselPrevious className="static translate-x-0 translate-y-0 bg-white shadow-md hover:bg-gray-100 rounded-full" />
+              <CarouselNext className="static translate-x-0 translate-y-0 bg-white shadow-md hover:bg-gray-100 rounded-full" />
+            </div>
+          )}
+        </Carousel>
+      ) : (
+        <div className="w-full text-center py-16 px-4 bg-gray-50 rounded-2xl border border-gray-100 my-6">
+          <div className="text-3xl mb-4 opacity-80">✨</div>
+          <h3 className="text-gray-900 font-semibold text-lg tracking-tight">
+            Temporarily Sold Out
+          </h3>
+          <p className="text-gray-500 text-sm mt-1.5 max-w-sm mx-auto leading-relaxed">
+            These items flew off our shelves. Let us notify you the exact moment
+            they return.
           </p>
-        )}
-      </div>
+        </div>
+      )}
     </>
   );
 };

@@ -60,7 +60,7 @@ const OurServiceSection = () => {
                       })()}
                       </span>
                     </div>
-                    <div className="h-30">
+                    <div className="h-35">
                       <h5 className="my-2 text-xl sm:text-2xl font-semibold tracking-tight text-heading">
                       {service.title}
                     </h5>
