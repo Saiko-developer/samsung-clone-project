@@ -5,6 +5,7 @@ import { CategoryApiUrl, fetchCategory } from "@/data/latest/categories";
 import useSWR from "swr";
 import NavbarSection from "../components/NavbarSection";
 import { ShoppingCart, UserKey, Menu, X, Search } from "lucide-react";
+import ThemeToggle from "@/components/ui/ThemeToggle";
 import Link from "next/link";
 import useVoucherStore from "@/data/cart";
 import { useRouter } from "next/navigation";
@@ -41,7 +42,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full grid grid-cols-2 lg:grid-cols-6 px-3 lg:px-5 py-5 lg:py-10 gap-2 lg:gap-0 relative">
+      <nav className="fixed top-0 left-0 w-full grid grid-cols-2 lg:grid-cols-6 px-3 lg:px-5 py-5 lg:py-10 gap-2 lg:gap-0 z-50 bg-white dark:bg-gray-900">
         <div className="col-span-1 flex items-center">
           <h1 className="text-lg lg:text-2xl font-mono font-bold">SAMSAUNG</h1>
         </div>
@@ -96,9 +97,7 @@ const Navbar = () => {
               </div>
             </Link>
             <Link href={"/login"}>
-              <button>
-                <UserKey className="w-4 h-4 md:w-5 md:h-5" />
-              </button>
+              <UserKey className="w-4 h-4 md:w-5 md:h-5 cursor-pointer" />
             </Link>
           </div>
         </div>
@@ -126,6 +125,7 @@ const Navbar = () => {
 
               {/* Mobile Icons */}
               <div className="flex items-center gap-4 pt-3 border-t border-gray-200 dark:border-gray-700 mt-2">
+                <ThemeToggle />
                 {/* Mobile Search Trigger */}
                 <button
                   onClick={() => {
@@ -150,7 +150,7 @@ const Navbar = () => {
                 </Link>
                 <Link href={"/login"}>
                   <button>
-                    <UserKey className="w-4 h-4 md:w-5 md:h-5" />
+                    <UserKey className="w-5 h-5 md:w-5 md:h-5" />
                   </button>
                 </Link>
               </div>
@@ -158,6 +158,8 @@ const Navbar = () => {
           </div>
         )}
       </nav>
+      {/* Spacer to prevent content from hiding behind fixed navbar */}
+      <div className="h-20 lg:h-28"></div>
     </>
   );
 };

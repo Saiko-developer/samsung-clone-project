@@ -74,7 +74,7 @@ const StudentSection = () => {
         />
         <div className="relative z-10 flex flex-col justify-center h-full px-8 md:px-16 ">
           
-          <h1 className="text-l md:text-2xl lg:text-4xl font-bold text-black mb-4 leading-tight">
+          <h1 className="text-s md:text-2xl lg:text-4xl font-bold text-black mb-4 leading-tight">
             Enjoy $20 off your first purchase.
           </h1>
           

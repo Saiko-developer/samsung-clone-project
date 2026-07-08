@@ -28,14 +28,14 @@ const CareSection = () => {
           </button>
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center p-10">
-        <div className="w-full p-2 bg-gray-200 text-center text-xl">
+      <section className="flex flex-col items-center justify-center p-4 md:p-10">
+        <div className="w-full p-2 md:p-4 bg-gray-200 text-center text-lg md:text-xl">
           <h1>How it works?</h1>
         </div>
-        <div className="grid grid-cols-3 ">
-          <div className="text-center border px-2 py-5 ">
-            <h1 className="font-bold text-xl">Step1</h1>
-            <p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full max-w-7xl">
+          <div className="text-center border px-3 py-5 md:px-4 md:py-6">
+            <h1 className="font-bold text-lg md:text-xl">Step 1</h1>
+            <p className="text-sm md:text-base">
               Sign up for your first Trust Credit Card through the
               <br />{" "}
               <a href="" className="text-blue-500">
@@ -43,17 +43,17 @@ const CareSection = () => {
               </a>
             </p>
           </div>
-          <div className="text-center border px-2 py-5 ">
-            <h1 className="font-bold text-xl">Step1</h1>
-            <p>
+          <div className="text-center border px-3 py-5 md:px-4 md:py-6">
+            <h1 className="font-bold text-lg md:text-xl">Step 2</h1>
+            <p className="text-sm md:text-base">
               Upon successful sign-up, you will receive a Samsung e-voucher code
               in your Trust app. Download the Trust app to access your
               redemption code.
             </p>
           </div>
-          <div className="text-center border px-2 py-5 ">
-            <h1 className="font-bold text-xl"> Step1</h1>
-            <p>
+          <div className="text-center border px-3 py-5 md:px-4 md:py-6">
+            <h1 className="font-bold text-lg md:text-xl">Step 3</h1>
+            <p className="text-sm md:text-base">
               Enter the promo code before you check-out on{" "}
               <a href="" className="text-blue-500">
                 Samsung.com

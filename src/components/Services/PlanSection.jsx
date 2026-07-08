@@ -6,28 +6,24 @@ const plans = [
   {
     bank: "CIMB Bank",
     logo: "https://au2-images.shop.samsung.com/medias/cimb-icon.png?context=bWFzdGVyfHJvb3R8MTU5ODF8aW1hZ2UvcG5nfGFETTNMMmhsWlM4Mk5EQTVPVEE1TVRBNE56TTVNQzlqYVcxaVgybGpiMjR1Y0c1bnwzNjEwMmNhYjkzMDJkZmNjNjBkZTVhNDNmNDE4YTFhMTNhYzBhZWI4MmUzMTg5MmJiOTIwNDUwM2U2NmZhYjQ5",
-    image: "https://images.samsung.com/is/image/samsung/assets/sg/offer/20260226/visa-card-1.png?$ORIGIN_PNG$",
     label: "CIMB",
     plans: ["3 months – 0% Interest", "6 months – 0% Interest", "12 months – 0% Interest"],
   },
   {
     bank: "Maybank",
     logo: "https://au2-images.shop.samsung.com/medias/maybank-icon.png?context=bWFzdGVyfHJvb3R8MTU5ODF8aW1hZ2UvcG5nfGFETTNMMmhsWlM4Mk5EQTVPVEE1TVRBNE56TTVNQzlqYVcxaVgybGpiMjR1Y0c1bnwzNjEwMmNhYjkzMDJkZmNjNjBkZTVhNDNmNDE4YTFhMTNhYzBhZWI4MmUzMTg5MmJiOTIwNDUwM2U2NmZhYjQ5",
-    image: "https://images.samsung.com/is/image/samsung/assets/sg/offer/20260226/visa-card-2.png?$ORIGIN_PNG$",
     label: "Maybank",
     plans: ["3 months – 0% Interest", "6 months – 0% Interest", "12 months – 0% Interest"],
   },
   {
     bank: "UOB Bank",
     logo: "https://au2-images.shop.samsung.com/medias/uob-icon.png?context=bWFzdGVyfHJvb3R8MTU5ODF8aW1hZ2UvcG5nfGFETTNMMmhsWlM4Mk5EQTVPVEE1TVRBNE56TTVNQzlqYVcxaVgybGpiMjR1Y0c1bnwzNjEwMmNhYjkzMDJkZmNjNjBkZTVhNDNmNDE4YTFhMTNhYzBhZWI4MmUzMTg5MmJiOTIwNDUwM2U2NmZhYjQ5",
-    image: "https://images.samsung.com/is/image/samsung/assets/sg/offer/20260226/visa-card-3.png?$ORIGIN_PNG$",
     label: "UOB",
     plans: ["3 months – 0% Interest", "6 months – 0% Interest", "12 months – 0% Interest"],
   },
   {
     bank: "OCBC Bank",
     logo: "https://au2-images.shop.samsung.com/medias/ocbc-icon.png?context=bWFzdGVyfHJvb3R8MTU5ODF8aW1hZ2UvcG5nfGFETTNMMmhsWlM4Mk5EQTVPVEE1TVRBNE56TTVNQzlqYVcxaVgybGpiMjR1Y0c1bnwzNjEwMmNhYjkzMDJkZmNjNjBkZTVhNDNmNDE4YTFhMTNhYzBhZWI4MmUzMTg5MmJiOTIwNDUwM2U2NmZhYjQ5",
-    image: "https://images.samsung.com/is/image/samsung/assets/sg/offer/20260226/visa-card-4.png?$ORIGIN_PNG$",
     label: "OCBC",
     plans: ["3 months – 0% Interest", "6 months – 0% Interest", "12 months – 0% Interest"],
   },
@@ -73,16 +69,7 @@ const PlanSection = () => {
               </div>
             </div>
 
-            {/* Card Image */}
-            <div className="p-4 flex justify-center bg-gray-50">
-              <img
-                src={plan.image}
-                alt={`${plan.label} card`}
-                className="w-full max-w-[200px] h-auto object-contain"
-              />
-            </div>
-
-            {/* Plan Details */}
+          {/* Plan Details */}
             <div className="p-4 space-y-2">
               {plan.plans.map((item, i) => (
                 <div

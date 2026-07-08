@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useProducts } from "@/data/all-products/categories";
 import {
@@ -19,12 +19,14 @@ const NavbarSection = ({ category, onCloseMobileMenu }) => {
     AllProductsCategoriesApiUrl,
     fetchAllProductsCategories,
   );
+  
   const relatedCategories =
     allCategories?.filter((cat) => cat.category === category.name) || [];
 
   const subcategories = [
     ...new Set(relatedCategories.map((c) => c.subcategory)),
   ];
+
   const handleClick = (e) => {
     e.preventDefault();
     setCategory(category.name);
@@ -40,6 +42,7 @@ const NavbarSection = ({ category, onCloseMobileMenu }) => {
     if (onCloseMobileMenu) onCloseMobileMenu();
     router.push("/products");
   };
+
   return (
     <div
       className="relative inline-block"

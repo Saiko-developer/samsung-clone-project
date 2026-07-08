@@ -92,7 +92,7 @@ const onSelect = useCallback((apiInstance) => {
                 </div>
                 <div className="p-3 sm:p-4 md:p-6">
                   <a href="#">
-                    <h5 className="mt-3 mb-6 text-2xl font-semibold tracking-tight text-heading">
+                    <h5 className="mt-3 mb-6 text-2xl font-semibold tracking-tight text-heading h-10">
                       {store.title}
                     </h5>
                   </a>
