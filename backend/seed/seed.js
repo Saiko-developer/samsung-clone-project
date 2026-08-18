@@ -2,7 +2,11 @@ require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") }
 const mongoose = require("mongoose");
 const path = require("path");
 const fs = require("fs");
+const dns = require("node:dns/promises");
 const models = require("../models");
+
+// Use Google/Cloudflare DNS servers to resolve MongoDB Atlas SRV records
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 // Load data.json from the project root
 const dataPath = path.join(__dirname, "..", "..", "data.json");
