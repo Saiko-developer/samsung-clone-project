@@ -2,7 +2,16 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const path = require("path");
+const fs = require("fs");
 const routes = require("./routes");
+
+// Global flag to control data source
+global.USE_MONGODB = false;
+
+// Load data.json as fallback data source
+const dataPath = path.join(__dirname, "..", "data.json");
+global.FALLBACK_DATA = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -16,21 +25,34 @@ app.use("/api", routes);
 
 // Health check
 app.get("/", (req, res) => {
-  res.json({ status: "ok", message: "Samsung Clone Backend API" });
+  res.json({
+    status: "ok",
+    message: "Samsung Clone Backend API",
+    dataSource: global.USE_MONGODB ? "MongoDB" : "data.json (fallback)",
+  });
 });
 
 // Connect to MongoDB and start server
 async function startServer() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log("✅ Connected to MongoDB");
+    await mongoose.connect(process.env.MONGODB_URI, {
+      serverSelectionTimeoutMS: 10000,
+    });
+    global.USE_MONGODB = true;
+    console.log("✅ Connected to MongoDB Atlas");
+    console.log(`📦 Data source: MongoDB`);
 
     app.listen(PORT, () => {
       console.log(`🚀 Server running on http://localhost:${PORT}`);
     });
   } catch (error) {
-    console.error("❌ Failed to connect to MongoDB:", error.message);
-    process.exit(1);
+    console.warn("⚠️  MongoDB connection failed:", error.message);
+    console.warn("📦 Falling back to data.json (in-memory mode)");
+    global.USE_MONGODB = false;
+
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on http://localhost:${PORT} (fallback mode)`);
+    });
   }
 }
 
